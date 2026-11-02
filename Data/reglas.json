@@ -1,0 +1,4 @@
+{
+  "_nota": "Reglas de compatibilidad entre alimentos de una misma comida. Hoy esta vacia: el nutricionista confirmo que leche/yogur con huevo SI se permite. Para agregar una regla blanda: { \"a\": \"texto\", \"b\": \"texto\" } (se busca dentro del nombre del alimento).",
+  "incompatibles": []
+}

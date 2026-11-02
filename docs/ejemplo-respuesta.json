@@ -1,0 +1,1617 @@
+{
+  "fase": "remodelacion",
+  "leccion": "desgarros",
+  "peso": 70,
+  "semilla": 11,
+  "requerimientos": {
+    "kcal": 2800,
+    "carbohidratos": 385,
+    "proteina": 140,
+    "grasa": 77.8,
+    "kcalPorKg": 40,
+    "pctProteina": 20,
+    "pctCarbohidratos": 55,
+    "pctGrasa": 25
+  },
+  "porciones": [
+    {
+      "grupo": "Carnes, pescados y huevos",
+      "subgrupo": "Bajos en grasas",
+      "porcionesTotal": 2,
+      "porComida": [
+        0.5,
+        0,
+        1,
+        0,
+        0.5
+      ]
+    },
+    {
+      "grupo": "Cereales",
+      "subgrupo": "Altos en CHO y bajos en grasas",
+      "porcionesTotal": 5,
+      "porComida": [
+        1.5,
+        0,
+        2,
+        0.5,
+        1
+      ]
+    },
+    {
+      "grupo": "Leguminosas",
+      "subgrupo": "Leguminosas",
+      "porcionesTotal": 2,
+      "porComida": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "grupo": "Carnes, pescados y huevos",
+      "subgrupo": "Medios en grasas",
+      "porcionesTotal": 3,
+      "porComida": [
+        0.5,
+        0,
+        1.5,
+        0,
+        1
+      ]
+    },
+    {
+      "grupo": "Lácteos",
+      "subgrupo": "Semidescremados",
+      "porcionesTotal": 3,
+      "porComida": [
+        1.5,
+        1,
+        0,
+        0.5,
+        0
+      ]
+    },
+    {
+      "grupo": "Lácteos",
+      "subgrupo": "Descremados (bajos en grasas)",
+      "porcionesTotal": 0,
+      "porComida": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "grupo": "Cereales",
+      "subgrupo": "Medios en CHO y bajos en grasas",
+      "porcionesTotal": 0,
+      "porComida": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "grupo": "Cereales",
+      "subgrupo": "Medios en CHO y medios en grasas",
+      "porcionesTotal": 0,
+      "porComida": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "grupo": "Frutas",
+      "subgrupo": "Bajas en CHO",
+      "porcionesTotal": 0,
+      "porComida": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "grupo": "Grasas y frutos secos",
+      "subgrupo": "Medios en grasas",
+      "porcionesTotal": 1.5,
+      "porComida": [
+        0.5,
+        0,
+        0.5,
+        0,
+        0.5
+      ]
+    },
+    {
+      "grupo": "Grasas y frutos secos",
+      "subgrupo": "Altos en grasas",
+      "porcionesTotal": 1.5,
+      "porComida": [
+        0.5,
+        0,
+        0.5,
+        0,
+        0.5
+      ]
+    },
+    {
+      "grupo": "Vegetales",
+      "subgrupo": "Bajos en CHO",
+      "porcionesTotal": 5,
+      "porComida": [
+        0,
+        0.5,
+        2,
+        0.5,
+        2
+      ]
+    },
+    {
+      "grupo": "Frutas",
+      "subgrupo": "Medias en CHO",
+      "porcionesTotal": 5,
+      "porComida": [
+        1.5,
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  ],
+  "adecuacion": {
+    "carbohidratos": 91.6,
+    "proteina": 92.9,
+    "grasa": 93.2,
+    "kcal": 95.4,
+    "enRango90a110": true
+  },
+  "comidas": [
+    {
+      "id": "Desayuno",
+      "nombre": "Desayuno",
+      "horario": "07:00–08:00",
+      "alimentos": [
+        {
+          "id": "leche-de-vaca-fluida-2-de-grasa",
+          "nombre": "Leche de vaca fluida, 2 % de grasa",
+          "grupo": "Lácteos",
+          "subgrupo": "Semidescremados",
+          "porciones": 1.5,
+          "medidaPorPorcion": "1 taza, 3/4 de vaso",
+          "pesoPorPorcionG": "240",
+          "foto": "imagenes/leche-de-vaca-fluida-2-de-grasa.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "yogur-natural-leche-semidescremada",
+              "nombre": "Yogur natural, leche semidescremada",
+              "medidaPorPorcion": "7/8 de taza, 3/4 de vaso",
+              "pesoPorPorcionG": "200",
+              "foto": "imagenes/yogur-natural-leche-semidescremada.jpg"
+            }
+          ]
+        },
+        {
+          "id": "morocho-maiz-blanco-crudo",
+          "nombre": "Morocho, maíz blanco, crudo",
+          "grupo": "Cereales",
+          "subgrupo": "Altos en CHO y bajos en grasas",
+          "porciones": 1.5,
+          "medidaPorPorcion": "3 cdas. llenas, 1/3 de taza",
+          "pesoPorPorcionG": "50",
+          "foto": "imagenes/morocho-maiz-blanco-crudo.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "avena-en-hojuelas-sin-fortificar-mosh",
+              "nombre": "Avena en hojuelas sin fortificar, Mosh",
+              "medidaPorPorcion": "4 cdas. llenas, 1/3 de taza",
+              "pesoPorPorcionG": "40",
+              "foto": "imagenes/avena-en-hojuelas-sin-fortificar-mosh-en-seco.jpg"
+            },
+            {
+              "id": "pan-de-trigo-natural-o-tostado",
+              "nombre": "Pan de trigo, natural o tostado",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "60",
+              "foto": "imagenes/pan-de-trigo-natural-o-tostado.jpg"
+            },
+            {
+              "id": "pan-integral-tipo-pita",
+              "nombre": "Pan integral, tipo pita",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "50",
+              "foto": null
+            },
+            {
+              "id": "platano-maduro-o-maqueno",
+              "nombre": "Plátano maduro o maqueño",
+              "medidaPorPorcion": "4 rodajas, 1/4 de unidad",
+              "pesoPorPorcionG": "100",
+              "foto": null
+            }
+          ]
+        },
+        {
+          "id": "huevo-de-gallina-clara",
+          "nombre": "Huevo de gallina, clara",
+          "grupo": "Carnes, pescados y huevos",
+          "subgrupo": "Bajos en grasas",
+          "porciones": 0.5,
+          "medidaPorPorcion": "3 unidades",
+          "pesoPorPorcionG": "100",
+          "foto": "imagenes/huevo-de-gallina-clara-cruda-o-cocida.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "pescado-atun-en-agua-o-aceite-enlatado",
+              "nombre": "Pescado, atún en agua o aceite, enlatado",
+              "medidaPorPorcion": "4 cdas. llenas, 1/4 de taza",
+              "pesoPorPorcionG": "40",
+              "foto": null
+            }
+          ]
+        },
+        {
+          "id": "huevo-de-gallina-entero",
+          "nombre": "Huevo de gallina, entero",
+          "grupo": "Carnes, pescados y huevos",
+          "subgrupo": "Medios en grasas",
+          "porciones": 0.5,
+          "medidaPorPorcion": "P: 2 uds. · M: 1 ud. · G: 1/2 ud.",
+          "pesoPorPorcionG": "50",
+          "foto": "imagenes/huevo-de-gallina-entero-crudo-o-cocido.jpg",
+          "nota": null,
+          "alternativas": []
+        },
+        {
+          "id": "banano-guineo",
+          "nombre": "Banano guineo",
+          "grupo": "Frutas",
+          "subgrupo": "Medias en CHO",
+          "porciones": 1.5,
+          "medidaPorPorcion": "P: 2 uds. · M: 1 ud. · G: 3/4 de ud.",
+          "pesoPorPorcionG": "110",
+          "foto": "imagenes/banano-guineo-platano-de-seda.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "banano-orito",
+              "nombre": "Banano orito",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "90",
+              "foto": "imagenes/banano-orito.jpg"
+            },
+            {
+              "id": "kiwi",
+              "nombre": "Kiwi",
+              "medidaPorPorcion": "1 1/2 unidad",
+              "pesoPorPorcionG": "170",
+              "foto": "imagenes/kiwi.jpg"
+            },
+            {
+              "id": "manzana-nacional-con-cascara",
+              "nombre": "Manzana nacional, con cáscara",
+              "medidaPorPorcion": "1 unidad mediana",
+              "pesoPorPorcionG": "160",
+              "foto": "imagenes/manzana-nacional-con-cascara.jpg"
+            },
+            {
+              "id": "naranja-nacional",
+              "nombre": "Naranja nacional",
+              "medidaPorPorcion": "P: 1 ud. · M: 3/4 de ud. · G: 1/2 ud.",
+              "pesoPorPorcionG": "180",
+              "foto": "imagenes/naranja-nacional.jpg"
+            },
+            {
+              "id": "pina",
+              "nombre": "Piña",
+              "medidaPorPorcion": "1 1/2 taza en rodajas, 1 taza en cubos",
+              "pesoPorPorcionG": "150",
+              "foto": "imagenes/pina.jpg"
+            }
+          ]
+        },
+        {
+          "id": "nuez-de-nogal",
+          "nombre": "Nuez de nogal",
+          "grupo": "Grasas y frutos secos",
+          "subgrupo": "Altos en grasas",
+          "porciones": 0.5,
+          "medidaPorPorcion": "Entera: 3 unidades · Pelada: 6 mitades, 2 cdas. llenas",
+          "pesoPorPorcionG": "15",
+          "foto": "imagenes/nuez-de-nogal-fruto-seco.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "mani-o-cacahuate-tostado-con-sal",
+              "nombre": "Maní o cacahuate, tostado, con sal",
+              "medidaPorPorcion": "2 cdas. llenas",
+              "pesoPorPorcionG": "20",
+              "foto": "imagenes/mani-o-cacahuate-tostado-con-sal-fruto-seco.jpg"
+            }
+          ]
+        },
+        {
+          "id": "aguacate-serrano",
+          "nombre": "Aguacate, serrano",
+          "grupo": "Grasas y frutos secos",
+          "subgrupo": "Medios en grasas",
+          "porciones": 0.5,
+          "medidaPorPorcion": "1 unidad",
+          "pesoPorPorcionG": "50",
+          "foto": "imagenes/aguacate-serrano.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "aguacate-o-palta-comun",
+              "nombre": "Aguacate o palta, común",
+              "medidaPorPorcion": "1/4 de unidad",
+              "pesoPorPorcionG": "50",
+              "foto": "imagenes/aguacate-o-palta-comun.jpg"
+            }
+          ]
+        }
+      ],
+      "aporte": {
+        "kcal": 710,
+        "cho": 93,
+        "proteina": 31.5,
+        "grasa": 21.5
+      }
+    },
+    {
+      "id": "MM",
+      "nombre": "Media mañana",
+      "horario": "10:00–10:30",
+      "alimentos": [
+        {
+          "id": "yogur-natural-leche-semidescremada",
+          "nombre": "Yogur natural, leche semidescremada",
+          "grupo": "Lácteos",
+          "subgrupo": "Semidescremados",
+          "porciones": 1,
+          "medidaPorPorcion": "7/8 de taza, 3/4 de vaso",
+          "pesoPorPorcionG": "200",
+          "foto": "imagenes/yogur-natural-leche-semidescremada.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "leche-de-vaca-fluida-2-de-grasa",
+              "nombre": "Leche de vaca fluida, 2 % de grasa",
+              "medidaPorPorcion": "1 taza, 3/4 de vaso",
+              "pesoPorPorcionG": "240",
+              "foto": "imagenes/leche-de-vaca-fluida-2-de-grasa.jpg"
+            }
+          ]
+        },
+        {
+          "id": "pimiento-rojo",
+          "nombre": "Pimiento rojo",
+          "grupo": "Vegetales",
+          "subgrupo": "Bajos en CHO",
+          "porciones": 0.5,
+          "medidaPorPorcion": "1/2 unidad mediana",
+          "pesoPorPorcionG": "75",
+          "foto": "imagenes/pimiento-rojo.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "tomate-rinon-rojo",
+              "nombre": "Tomate riñón, rojo",
+              "medidaPorPorcion": "1/2 taza, 1/2 unidad, 3 rodajas",
+              "pesoPorPorcionG": "100",
+              "foto": "imagenes/tomate-rinon-rojo.jpg"
+            },
+            {
+              "id": "zanahoria-sin-cascara",
+              "nombre": "Zanahoria, sin cáscara",
+              "medidaPorPorcion": "1/3 de taza",
+              "pesoPorPorcionG": "50",
+              "foto": "imagenes/zanahoria-sin-cascara-cruda-o-cocida.jpg"
+            }
+          ]
+        },
+        {
+          "id": "capuli-o-capulina",
+          "nombre": "Capulí o capulina",
+          "grupo": "Frutas",
+          "subgrupo": "Medias en CHO",
+          "porciones": 1,
+          "medidaPorPorcion": "1 taza llena",
+          "pesoPorPorcionG": "120",
+          "foto": "imagenes/capuli-o-capulina.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "banano-guineo",
+              "nombre": "Banano guineo",
+              "medidaPorPorcion": "P: 2 uds. · M: 1 ud. · G: 3/4 de ud.",
+              "pesoPorPorcionG": "110",
+              "foto": "imagenes/banano-guineo-platano-de-seda.jpg"
+            },
+            {
+              "id": "banano-orito",
+              "nombre": "Banano orito",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "90",
+              "foto": "imagenes/banano-orito.jpg"
+            },
+            {
+              "id": "durazno-comun-con-cascara",
+              "nombre": "Durazno común con cáscara",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "110",
+              "foto": "imagenes/durazno-comun-con-cascara-fruta-criolla.jpg"
+            },
+            {
+              "id": "granadilla",
+              "nombre": "Granadilla",
+              "medidaPorPorcion": "1/4 de taza, 1 unidad grande",
+              "pesoPorPorcionG": "80",
+              "foto": "imagenes/granadilla.jpg"
+            },
+            {
+              "id": "manzana-nacional-con-cascara",
+              "nombre": "Manzana nacional, con cáscara",
+              "medidaPorPorcion": "1 unidad mediana",
+              "pesoPorPorcionG": "160",
+              "foto": "imagenes/manzana-nacional-con-cascara.jpg"
+            },
+            {
+              "id": "pera-nacional",
+              "nombre": "Pera nacional",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "130",
+              "foto": "imagenes/pera-nacional.jpg"
+            },
+            {
+              "id": "uva-verde",
+              "nombre": "Uva verde",
+              "medidaPorPorcion": "20-22 unidades pequeñas",
+              "pesoPorPorcionG": "120",
+              "foto": "imagenes/uva-verde.jpg"
+            }
+          ]
+        }
+      ],
+      "aporte": {
+        "kcal": 215,
+        "cho": 33.5,
+        "proteina": 9.5,
+        "grasa": 4
+      }
+    },
+    {
+      "id": "Almuerzo",
+      "nombre": "Almuerzo",
+      "horario": "12:30–13:30",
+      "alimentos": [
+        {
+          "id": "fideo-espagueti-cocido",
+          "nombre": "Fideo, espagueti, cocido",
+          "grupo": "Cereales",
+          "subgrupo": "Altos en CHO y bajos en grasas",
+          "porciones": 2,
+          "medidaPorPorcion": "1 taza ras",
+          "pesoPorPorcionG": "100",
+          "foto": "imagenes/fideo-espagueti-cocido.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "fideo-espagueti-integral-cocido",
+              "nombre": "Fideo, espagueti integral, cocido",
+              "medidaPorPorcion": "1 taza llena",
+              "pesoPorPorcionG": "100",
+              "foto": "imagenes/fideo-espagueti-integral-cocido.jpg"
+            },
+            {
+              "id": "arroz-blanco-grano-largo-cocido",
+              "nombre": "Arroz blanco, grano largo, cocido",
+              "medidaPorPorcion": "3/4 de taza",
+              "pesoPorPorcionG": "110",
+              "foto": "imagenes/arroz-blanco-grano-largo-cocido.jpg"
+            },
+            {
+              "id": "arroz-integral-grano-largo-cocido",
+              "nombre": "Arroz integral, grano largo, cocido",
+              "medidaPorPorcion": "3/4 de taza",
+              "pesoPorPorcionG": "120",
+              "foto": "imagenes/arroz-integral-grano-largo-cocido.jpg"
+            },
+            {
+              "id": "camote-cocido",
+              "nombre": "Camote, cocido",
+              "medidaPorPorcion": "1 taza llena",
+              "pesoPorPorcionG": "145",
+              "foto": "imagenes/camote-cocido.jpg"
+            },
+            {
+              "id": "maiz-tipo-mote-cocido",
+              "nombre": "Maíz tipo mote, cocido",
+              "medidaPorPorcion": "3/4 de taza",
+              "pesoPorPorcionG": "90",
+              "foto": "imagenes/maiz-tipo-mote-cocido.jpg"
+            },
+            {
+              "id": "papa-amarilla-chaucha",
+              "nombre": "Papa amarilla, chaucha",
+              "medidaPorPorcion": "1 taza llena, 9 unidades",
+              "pesoPorPorcionG": "110",
+              "foto": "imagenes/papa-amarilla-chaucha-cruda-o-cocida.jpg"
+            },
+            {
+              "id": "papa-sin-cascara",
+              "nombre": "Papa, sin cáscara",
+              "medidaPorPorcion": "P: 12 uds. · M: 2 uds. · G: 1 ud. · EG: 1/2 ud.",
+              "pesoPorPorcionG": "120",
+              "foto": "imagenes/papa-sin-cascara-cruda-o-cocida.jpg"
+            },
+            {
+              "id": "platano-verde-crudo",
+              "nombre": "Plátano verde, crudo",
+              "medidaPorPorcion": "P: 3/4 de unidad · G: 1/3 de unidad",
+              "pesoPorPorcionG": "90",
+              "foto": "imagenes/platano-verde-crudo.jpg"
+            }
+          ]
+        },
+        {
+          "id": "pescado-tilapia",
+          "nombre": "Pescado, tilapia",
+          "grupo": "Carnes, pescados y huevos",
+          "subgrupo": "Bajos en grasas",
+          "porciones": 1,
+          "medidaPorPorcion": "crudo: 1 filete (10 x 8 x 0,8 cm) / cocido: 1 filete (8,4 x 7 x 1 cm)",
+          "pesoPorPorcionG": "crudo: 60 / cocido: 55",
+          "foto": "imagenes/pescado-tilapia.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "pescado-corvina-cruda",
+              "nombre": "Pescado, corvina, cruda",
+              "medidaPorPorcion": "Crudo: 1 filete (14,5 x 6 x 0,6 cm) · Cocido: (13,8 x 5 x 0,6 cm)",
+              "pesoPorPorcionG": "70",
+              "foto": "imagenes/pescado-corvina-cruda.jpg"
+            },
+            {
+              "id": "pescado-pargo",
+              "nombre": "Pescado, pargo",
+              "medidaPorPorcion": "Crudo: 1 filete (9,5 x 5 x 3,2 cm) · Asado/cocido: (9,1 x 4,9 x 3,1 cm)",
+              "pesoPorPorcionG": "60",
+              "foto": "imagenes/pescado-pargo.jpg"
+            },
+            {
+              "id": "pescado-trucha-cruda",
+              "nombre": "Pescado, trucha, cruda",
+              "medidaPorPorcion": "Crudo: 1 filete (15 x 4,2 x 0,6 cm) · Cocido: 1 filete (14,5 x 4 x 0,5 cm)",
+              "pesoPorPorcionG": "50",
+              "foto": "imagenes/pescado-trucha-cruda.jpg"
+            },
+            {
+              "id": "camaron-pelado",
+              "nombre": "Camarón, pelado",
+              "medidaPorPorcion": "P: 11 uds. · G: 4 uds.",
+              "pesoPorPorcionG": "60",
+              "foto": "imagenes/camaron-pelado-crudo-o-cocido.jpg"
+            },
+            {
+              "id": "pollo-muslo-sin-piel",
+              "nombre": "Pollo, muslo sin piel",
+              "medidaPorPorcion": "1/2 unidad",
+              "pesoPorPorcionG": "45",
+              "foto": "imagenes/pollo-muslo-sin-piel-crudo-o-cocido.jpg"
+            },
+            {
+              "id": "pollo-pechuga-sin-piel",
+              "nombre": "Pollo, pechuga sin piel",
+              "medidaPorPorcion": "Crudo: 1 filete (10 x 6,5 x 0,6 cm) · Cocido: 1 filete (9 x 5,7 x 0,6 cm)",
+              "pesoPorPorcionG": "40",
+              "foto": "imagenes/pollo-pechuga-sin-piel-crudo-cocido-estado-del-peso-por-veri.jpg"
+            },
+            {
+              "id": "res-higado",
+              "nombre": "Res, hígado",
+              "medidaPorPorcion": "crudo: 1 filete (8,5 x 5,7 x 1,1 cm) / cocido: 1 filete (7 x 5,4 x 1,2 cm)",
+              "pesoPorPorcionG": "crudo: 55 / cocido: 45",
+              "foto": "imagenes/res-higado.jpg"
+            },
+            {
+              "id": "res-lomo-fino",
+              "nombre": "Res, lomo fino",
+              "medidaPorPorcion": "crudo: 1 filete (8,5 x 6,1 x 1 cm) / cocido: 1 filete (7 x 6 x 1 cm)",
+              "pesoPorPorcionG": "crudo: 50 / cocido: 40",
+              "foto": "imagenes/res-lomo-fino-filete.jpg"
+            }
+          ]
+        },
+        {
+          "id": "pescado-salmon",
+          "nombre": "Pescado, salmón",
+          "grupo": "Carnes, pescados y huevos",
+          "subgrupo": "Medios en grasas",
+          "porciones": 1.5,
+          "medidaPorPorcion": "Crudo: 1 trozo (13,1 x 3 x 2,4 cm) · Cocido: 1 trozo (12,1 x 3,5 x 2,2 cm)",
+          "pesoPorPorcionG": "60",
+          "foto": "imagenes/pescado-salmon.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "huevo-de-gallina-entero",
+              "nombre": "Huevo de gallina, entero",
+              "medidaPorPorcion": "P: 2 uds. · M: 1 ud. · G: 1/2 ud.",
+              "pesoPorPorcionG": "50",
+              "foto": "imagenes/huevo-de-gallina-entero-crudo-o-cocido.jpg"
+            },
+            {
+              "id": "pollo-pierna-con-piel",
+              "nombre": "Pollo, pierna con piel",
+              "medidaPorPorcion": "1 unidad pequeña, 1/2 unidad mediana",
+              "pesoPorPorcionG": "55",
+              "foto": "imagenes/pollo-pierna-con-piel-cruda-o-cocida.jpg"
+            },
+            {
+              "id": "res-carne-semimagra",
+              "nombre": "Res, carne semimagra",
+              "medidaPorPorcion": "crudo: 1 filete (7 x 3,4 x 1,9 cm) / cocido: 1 filete (6,1 x 3,5 x 1,3 cm)",
+              "pesoPorPorcionG": "crudo: 50 / cocido: 40",
+              "foto": "imagenes/res-carne-semimagra.jpg"
+            },
+            {
+              "id": "sardina-en-salsa-de-tomate-enlatada",
+              "nombre": "Sardina en salsa de tomate, enlatada",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "55",
+              "foto": "imagenes/sardina-en-salsa-de-tomate-enlatada.jpg"
+            },
+            {
+              "id": "res-bistec-crudo",
+              "nombre": "Res, bistec, crudo",
+              "medidaPorPorcion": "1 filete (10 x 4 x 2,1 cm)",
+              "pesoPorPorcionG": "60",
+              "foto": null
+            },
+            {
+              "id": "sardinas-en-aceite-enlatadas",
+              "nombre": "Sardinas en aceite, enlatadas",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "65",
+              "foto": null
+            }
+          ]
+        },
+        {
+          "id": "chocho-con-sal-cocido",
+          "nombre": "Chocho, con sal, cocido",
+          "grupo": "Leguminosas",
+          "subgrupo": "Leguminosas",
+          "porciones": 1,
+          "medidaPorPorcion": "1/2 taza",
+          "pesoPorPorcionG": "60",
+          "foto": "imagenes/chocho-con-sal-cocido.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "arveja-grano-seco-sin-sal",
+              "nombre": "Arveja, grano seco, sin sal",
+              "medidaPorPorcion": "cocida: 4 1/2 cdas. colmadas, 1/2 taza / cruda: 3 cdas. ras, 1/8 de taza",
+              "pesoPorPorcionG": "cocida: 100 / cruda: 35",
+              "foto": "imagenes/arveja-grano-seco-sin-sal.jpg"
+            },
+            {
+              "id": "frejol-blanco-sin-sal",
+              "nombre": "Fréjol blanco, sin sal",
+              "medidaPorPorcion": "cocido: 1/2 taza / crudo: 3 cdas. ras, 2 cdas. llenas, 1/8 de taza",
+              "pesoPorPorcionG": "cocido: 90 / crudo: 35",
+              "foto": "imagenes/frejol-blanco-sin-sal.jpg"
+            },
+            {
+              "id": "frejol-negro-sin-sal",
+              "nombre": "Fréjol negro, sin sal",
+              "medidaPorPorcion": "cocido: 1/2 taza / crudo: 3 1/2 cdas. ras, 2 cdas. llenas, 1/8 de taza",
+              "pesoPorPorcionG": "cocido: 90 / crudo: 40",
+              "foto": "imagenes/frejol-negro-sin-sal.jpg"
+            },
+            {
+              "id": "frejol-rojo-sin-sal",
+              "nombre": "Fréjol rojo, sin sal",
+              "medidaPorPorcion": "cocido: 1/2 taza / crudo: 3 cdas. ras, 2 cdas. llenas, 1/8 de taza",
+              "pesoPorPorcionG": "cocido: 90 / crudo: 35",
+              "foto": "imagenes/frejol-rojo-sin-sal.jpg"
+            },
+            {
+              "id": "garbanzo-sin-sal",
+              "nombre": "Garbanzo, sin sal",
+              "medidaPorPorcion": "cocido: 3/4 de taza / crudo: 2 cdas. llenas, 1/4 de taza",
+              "pesoPorPorcionG": "cocido: 90 / crudo: 35",
+              "foto": "imagenes/garbanzo-sin-sal.jpg"
+            },
+            {
+              "id": "lenteja-grano-seco-sin-sal",
+              "nombre": "Lenteja, grano seco, sin sal",
+              "medidaPorPorcion": "cocida: 3/4 de taza / cruda: 3 cdas. llenas, 1/4 de taza",
+              "pesoPorPorcionG": "cocida: 90 / cruda: 35",
+              "foto": "imagenes/lenteja-grano-seco-sin-sal.jpg"
+            }
+          ]
+        },
+        {
+          "id": "zapallo-o-calabaza-amarilla-crudo",
+          "nombre": "Zapallo o calabaza amarilla, crudo",
+          "grupo": "Vegetales",
+          "subgrupo": "Bajos en CHO",
+          "porciones": 1,
+          "medidaPorPorcion": "1/4 de taza",
+          "pesoPorPorcionG": "60",
+          "foto": "imagenes/zapallo-o-calabaza-amarilla-cocido-crudo-60-g-1-2-taza.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "sambo",
+              "nombre": "Sambo",
+              "medidaPorPorcion": "3/4 de taza",
+              "pesoPorPorcionG": "95",
+              "foto": "imagenes/sambo-zapallo-tierno-crudo-o-cocido.jpg"
+            },
+            {
+              "id": "zuquini",
+              "nombre": "Zuquini",
+              "medidaPorPorcion": "1 taza colmada",
+              "pesoPorPorcionG": "150",
+              "foto": "imagenes/zuquini-crudo-o-cocido.jpg"
+            },
+            {
+              "id": "brocoli-cocido",
+              "nombre": "Brócoli, cocido",
+              "medidaPorPorcion": "1 taza ras (crudo: 70 g, 1 taza llena)",
+              "pesoPorPorcionG": "70",
+              "foto": "imagenes/brocoli-sin-sal-cocido.jpg"
+            },
+            {
+              "id": "col-blanca-cruda",
+              "nombre": "Col blanca, cruda",
+              "medidaPorPorcion": "2 hojas, 1 taza llena",
+              "pesoPorPorcionG": "95",
+              "foto": "imagenes/col-blanca-sin-sal-cocida-cruda-100-g-2-tazas-llenas.jpg"
+            },
+            {
+              "id": "coliflor-cocida",
+              "nombre": "Coliflor, cocida",
+              "medidaPorPorcion": "1 taza ras (cruda: 100 g, 1 taza llena)",
+              "pesoPorPorcionG": "110",
+              "foto": "imagenes/coliflor-sin-sal-cocida.jpg"
+            },
+            {
+              "id": "haba-tierna-con-o-sin-cascara",
+              "nombre": "Haba tierna, con o sin cáscara",
+              "medidaPorPorcion": "1/4 de taza · P: 28 uds. · M: 22 uds. · G: 12 uds.",
+              "pesoPorPorcionG": "40",
+              "foto": "imagenes/haba-tierna-con-o-sin-cascara-cruda-o-cocida.jpg"
+            },
+            {
+              "id": "pimiento-rojo",
+              "nombre": "Pimiento rojo",
+              "medidaPorPorcion": "1/2 unidad mediana",
+              "pesoPorPorcionG": "75",
+              "foto": "imagenes/pimiento-rojo.jpg"
+            },
+            {
+              "id": "remolacha-cocida",
+              "nombre": "Remolacha, cocida",
+              "medidaPorPorcion": "1/3 de taza",
+              "pesoPorPorcionG": "50",
+              "foto": "imagenes/remolacha-sin-sal-cocida.jpg"
+            }
+          ]
+        },
+        {
+          "id": "espinaca-cocida",
+          "nombre": "Espinaca, cocida",
+          "grupo": "Vegetales",
+          "subgrupo": "Bajos en CHO",
+          "porciones": 1,
+          "medidaPorPorcion": "1 1/2 taza (cruda: 120 g, 3 tazas llenas)",
+          "pesoPorPorcionG": "120",
+          "foto": "imagenes/espinaca-sin-sal-cocida.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "brocoli-cocido",
+              "nombre": "Brócoli, cocido",
+              "medidaPorPorcion": "1 taza ras (crudo: 70 g, 1 taza llena)",
+              "pesoPorPorcionG": "70",
+              "foto": "imagenes/brocoli-sin-sal-cocido.jpg"
+            },
+            {
+              "id": "col-blanca-cruda",
+              "nombre": "Col blanca, cruda",
+              "medidaPorPorcion": "2 hojas, 1 taza llena",
+              "pesoPorPorcionG": "95",
+              "foto": "imagenes/col-blanca-sin-sal-cocida-cruda-100-g-2-tazas-llenas.jpg"
+            },
+            {
+              "id": "coliflor-cocida",
+              "nombre": "Coliflor, cocida",
+              "medidaPorPorcion": "1 taza ras (cruda: 100 g, 1 taza llena)",
+              "pesoPorPorcionG": "110",
+              "foto": "imagenes/coliflor-sin-sal-cocida.jpg"
+            },
+            {
+              "id": "haba-tierna-con-o-sin-cascara",
+              "nombre": "Haba tierna, con o sin cáscara",
+              "medidaPorPorcion": "1/4 de taza · P: 28 uds. · M: 22 uds. · G: 12 uds.",
+              "pesoPorPorcionG": "40",
+              "foto": "imagenes/haba-tierna-con-o-sin-cascara-cruda-o-cocida.jpg"
+            },
+            {
+              "id": "pimiento-rojo",
+              "nombre": "Pimiento rojo",
+              "medidaPorPorcion": "1/2 unidad mediana",
+              "pesoPorPorcionG": "75",
+              "foto": "imagenes/pimiento-rojo.jpg"
+            },
+            {
+              "id": "remolacha-cocida",
+              "nombre": "Remolacha, cocida",
+              "medidaPorPorcion": "1/3 de taza",
+              "pesoPorPorcionG": "50",
+              "foto": "imagenes/remolacha-sin-sal-cocida.jpg"
+            },
+            {
+              "id": "tomate-rinon-rojo",
+              "nombre": "Tomate riñón, rojo",
+              "medidaPorPorcion": "1/2 taza, 1/2 unidad, 3 rodajas",
+              "pesoPorPorcionG": "100",
+              "foto": "imagenes/tomate-rinon-rojo.jpg"
+            },
+            {
+              "id": "zanahoria-sin-cascara",
+              "nombre": "Zanahoria, sin cáscara",
+              "medidaPorPorcion": "1/3 de taza",
+              "pesoPorPorcionG": "50",
+              "foto": "imagenes/zanahoria-sin-cascara-cruda-o-cocida.jpg"
+            }
+          ]
+        },
+        {
+          "id": "mango-criollo",
+          "nombre": "Mango criollo",
+          "grupo": "Frutas",
+          "subgrupo": "Medias en CHO",
+          "porciones": 1,
+          "medidaPorPorcion": "2 unidades",
+          "pesoPorPorcionG": "200",
+          "foto": "imagenes/mango-criollo.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "durazno-comun-con-cascara",
+              "nombre": "Durazno común con cáscara",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "110",
+              "foto": "imagenes/durazno-comun-con-cascara-fruta-criolla.jpg"
+            },
+            {
+              "id": "manzana-nacional-con-cascara",
+              "nombre": "Manzana nacional, con cáscara",
+              "medidaPorPorcion": "1 unidad mediana",
+              "pesoPorPorcionG": "160",
+              "foto": "imagenes/manzana-nacional-con-cascara.jpg"
+            },
+            {
+              "id": "naranja-nacional",
+              "nombre": "Naranja nacional",
+              "medidaPorPorcion": "P: 1 ud. · M: 3/4 de ud. · G: 1/2 ud.",
+              "pesoPorPorcionG": "180",
+              "foto": "imagenes/naranja-nacional.jpg"
+            },
+            {
+              "id": "pera-nacional",
+              "nombre": "Pera nacional",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "130",
+              "foto": "imagenes/pera-nacional.jpg"
+            },
+            {
+              "id": "pina",
+              "nombre": "Piña",
+              "medidaPorPorcion": "1 1/2 taza en rodajas, 1 taza en cubos",
+              "pesoPorPorcionG": "150",
+              "foto": "imagenes/pina.jpg"
+            }
+          ]
+        },
+        {
+          "id": "aceite-de-girasol",
+          "nombre": "Aceite de girasol",
+          "grupo": "Grasas y frutos secos",
+          "subgrupo": "Altos en grasas",
+          "porciones": 0.5,
+          "medidaPorPorcion": "2 cdas",
+          "pesoPorPorcionG": "15",
+          "foto": null,
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "aceite-de-canola",
+              "nombre": "Aceite de canola",
+              "medidaPorPorcion": "2 cdas",
+              "pesoPorPorcionG": "15",
+              "foto": null
+            },
+            {
+              "id": "aceite-de-oliva",
+              "nombre": "Aceite de oliva",
+              "medidaPorPorcion": "2 cdas",
+              "pesoPorPorcionG": "15",
+              "foto": null
+            }
+          ]
+        },
+        {
+          "id": "aguacate-o-palta-comun",
+          "nombre": "Aguacate o palta, común",
+          "grupo": "Grasas y frutos secos",
+          "subgrupo": "Medios en grasas",
+          "porciones": 0.5,
+          "medidaPorPorcion": "1/4 de unidad",
+          "pesoPorPorcionG": "50",
+          "foto": "imagenes/aguacate-o-palta-comun.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "aguacate-serrano",
+              "nombre": "Aguacate, serrano",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "50",
+              "foto": "imagenes/aguacate-serrano.jpg"
+            }
+          ]
+        }
+      ],
+      "aporte": {
+        "kcal": 897.5,
+        "cho": 111.5,
+        "proteina": 48.5,
+        "grasa": 25
+      }
+    },
+    {
+      "id": "MT",
+      "nombre": "Media tarde",
+      "horario": "16:00–16:30",
+      "alimentos": [
+        {
+          "id": "leche-de-vaca-fluida-2-de-grasa",
+          "nombre": "Leche de vaca fluida, 2 % de grasa",
+          "grupo": "Lácteos",
+          "subgrupo": "Semidescremados",
+          "porciones": 0.5,
+          "medidaPorPorcion": "1 taza, 3/4 de vaso",
+          "pesoPorPorcionG": "240",
+          "foto": "imagenes/leche-de-vaca-fluida-2-de-grasa.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "yogur-natural-leche-semidescremada",
+              "nombre": "Yogur natural, leche semidescremada",
+              "medidaPorPorcion": "7/8 de taza, 3/4 de vaso",
+              "pesoPorPorcionG": "200",
+              "foto": "imagenes/yogur-natural-leche-semidescremada.jpg"
+            }
+          ]
+        },
+        {
+          "id": "camote-cocido",
+          "nombre": "Camote, cocido",
+          "grupo": "Cereales",
+          "subgrupo": "Altos en CHO y bajos en grasas",
+          "porciones": 0.5,
+          "medidaPorPorcion": "1 taza llena",
+          "pesoPorPorcionG": "145",
+          "foto": "imagenes/camote-cocido.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "avena-en-hojuelas-sin-fortificar-mosh",
+              "nombre": "Avena en hojuelas sin fortificar, Mosh",
+              "medidaPorPorcion": "4 cdas. llenas, 1/3 de taza",
+              "pesoPorPorcionG": "40",
+              "foto": "imagenes/avena-en-hojuelas-sin-fortificar-mosh-en-seco.jpg"
+            },
+            {
+              "id": "morocho-maiz-blanco-crudo",
+              "nombre": "Morocho, maíz blanco, crudo",
+              "medidaPorPorcion": "3 cdas. llenas, 1/3 de taza",
+              "pesoPorPorcionG": "50",
+              "foto": "imagenes/morocho-maiz-blanco-crudo.jpg"
+            }
+          ]
+        },
+        {
+          "id": "tomate-rinon-rojo",
+          "nombre": "Tomate riñón, rojo",
+          "grupo": "Vegetales",
+          "subgrupo": "Bajos en CHO",
+          "porciones": 0.5,
+          "medidaPorPorcion": "1/2 taza, 1/2 unidad, 3 rodajas",
+          "pesoPorPorcionG": "100",
+          "foto": "imagenes/tomate-rinon-rojo.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "pimiento-rojo",
+              "nombre": "Pimiento rojo",
+              "medidaPorPorcion": "1/2 unidad mediana",
+              "pesoPorPorcionG": "75",
+              "foto": "imagenes/pimiento-rojo.jpg"
+            },
+            {
+              "id": "zanahoria-sin-cascara",
+              "nombre": "Zanahoria, sin cáscara",
+              "medidaPorPorcion": "1/3 de taza",
+              "pesoPorPorcionG": "50",
+              "foto": "imagenes/zanahoria-sin-cascara-cruda-o-cocida.jpg"
+            }
+          ]
+        },
+        {
+          "id": "banano-orito",
+          "nombre": "Banano orito",
+          "grupo": "Frutas",
+          "subgrupo": "Medias en CHO",
+          "porciones": 1,
+          "medidaPorPorcion": "1 unidad",
+          "pesoPorPorcionG": "90",
+          "foto": "imagenes/banano-orito.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "banano-guineo",
+              "nombre": "Banano guineo",
+              "medidaPorPorcion": "P: 2 uds. · M: 1 ud. · G: 3/4 de ud.",
+              "pesoPorPorcionG": "110",
+              "foto": "imagenes/banano-guineo-platano-de-seda.jpg"
+            },
+            {
+              "id": "kiwi",
+              "nombre": "Kiwi",
+              "medidaPorPorcion": "1 1/2 unidad",
+              "pesoPorPorcionG": "170",
+              "foto": "imagenes/kiwi.jpg"
+            },
+            {
+              "id": "manzana-nacional-con-cascara",
+              "nombre": "Manzana nacional, con cáscara",
+              "medidaPorPorcion": "1 unidad mediana",
+              "pesoPorPorcionG": "160",
+              "foto": "imagenes/manzana-nacional-con-cascara.jpg"
+            },
+            {
+              "id": "pera-nacional",
+              "nombre": "Pera nacional",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "130",
+              "foto": "imagenes/pera-nacional.jpg"
+            }
+          ]
+        }
+      ],
+      "aporte": {
+        "kcal": 235,
+        "cho": 43,
+        "proteina": 7.5,
+        "grasa": 2.5
+      }
+    },
+    {
+      "id": "Cena",
+      "nombre": "Cena",
+      "horario": "19:00–20:00",
+      "alimentos": [
+        {
+          "id": "yuca-o-mandioca-raiz",
+          "nombre": "Yuca o mandioca, raíz",
+          "grupo": "Cereales",
+          "subgrupo": "Altos en CHO y bajos en grasas",
+          "porciones": 1,
+          "medidaPorPorcion": "3/4 de taza",
+          "pesoPorPorcionG": "90",
+          "foto": "imagenes/yuca-o-mandioca-raiz-cruda-o-cocida.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "arroz-blanco-grano-largo-cocido",
+              "nombre": "Arroz blanco, grano largo, cocido",
+              "medidaPorPorcion": "3/4 de taza",
+              "pesoPorPorcionG": "110",
+              "foto": "imagenes/arroz-blanco-grano-largo-cocido.jpg"
+            },
+            {
+              "id": "arroz-integral-grano-largo-cocido",
+              "nombre": "Arroz integral, grano largo, cocido",
+              "medidaPorPorcion": "3/4 de taza",
+              "pesoPorPorcionG": "120",
+              "foto": "imagenes/arroz-integral-grano-largo-cocido.jpg"
+            },
+            {
+              "id": "camote-cocido",
+              "nombre": "Camote, cocido",
+              "medidaPorPorcion": "1 taza llena",
+              "pesoPorPorcionG": "145",
+              "foto": "imagenes/camote-cocido.jpg"
+            },
+            {
+              "id": "fideo-espagueti-integral-cocido",
+              "nombre": "Fideo, espagueti integral, cocido",
+              "medidaPorPorcion": "1 taza llena",
+              "pesoPorPorcionG": "100",
+              "foto": "imagenes/fideo-espagueti-integral-cocido.jpg"
+            },
+            {
+              "id": "fideo-espagueti-cocido",
+              "nombre": "Fideo, espagueti, cocido",
+              "medidaPorPorcion": "1 taza ras",
+              "pesoPorPorcionG": "100",
+              "foto": "imagenes/fideo-espagueti-cocido.jpg"
+            },
+            {
+              "id": "maiz-tipo-mote-cocido",
+              "nombre": "Maíz tipo mote, cocido",
+              "medidaPorPorcion": "3/4 de taza",
+              "pesoPorPorcionG": "90",
+              "foto": "imagenes/maiz-tipo-mote-cocido.jpg"
+            },
+            {
+              "id": "papa-sin-cascara",
+              "nombre": "Papa, sin cáscara",
+              "medidaPorPorcion": "P: 12 uds. · M: 2 uds. · G: 1 ud. · EG: 1/2 ud.",
+              "pesoPorPorcionG": "120",
+              "foto": "imagenes/papa-sin-cascara-cruda-o-cocida.jpg"
+            },
+            {
+              "id": "platano-verde-crudo",
+              "nombre": "Plátano verde, crudo",
+              "medidaPorPorcion": "P: 3/4 de unidad · G: 1/3 de unidad",
+              "pesoPorPorcionG": "90",
+              "foto": "imagenes/platano-verde-crudo.jpg"
+            }
+          ]
+        },
+        {
+          "id": "pollo-muslo-sin-piel",
+          "nombre": "Pollo, muslo sin piel",
+          "grupo": "Carnes, pescados y huevos",
+          "subgrupo": "Bajos en grasas",
+          "porciones": 0.5,
+          "medidaPorPorcion": "1/2 unidad",
+          "pesoPorPorcionG": "45",
+          "foto": "imagenes/pollo-muslo-sin-piel-crudo-o-cocido.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "pollo-pechuga-sin-piel",
+              "nombre": "Pollo, pechuga sin piel",
+              "medidaPorPorcion": "Crudo: 1 filete (10 x 6,5 x 0,6 cm) · Cocido: 1 filete (9 x 5,7 x 0,6 cm)",
+              "pesoPorPorcionG": "40",
+              "foto": "imagenes/pollo-pechuga-sin-piel-crudo-cocido-estado-del-peso-por-veri.jpg"
+            },
+            {
+              "id": "camaron-pelado",
+              "nombre": "Camarón, pelado",
+              "medidaPorPorcion": "P: 11 uds. · G: 4 uds.",
+              "pesoPorPorcionG": "60",
+              "foto": "imagenes/camaron-pelado-crudo-o-cocido.jpg"
+            },
+            {
+              "id": "pescado-corvina-cruda",
+              "nombre": "Pescado, corvina, cruda",
+              "medidaPorPorcion": "Crudo: 1 filete (14,5 x 6 x 0,6 cm) · Cocido: (13,8 x 5 x 0,6 cm)",
+              "pesoPorPorcionG": "70",
+              "foto": "imagenes/pescado-corvina-cruda.jpg"
+            },
+            {
+              "id": "pescado-pargo",
+              "nombre": "Pescado, pargo",
+              "medidaPorPorcion": "Crudo: 1 filete (9,5 x 5 x 3,2 cm) · Asado/cocido: (9,1 x 4,9 x 3,1 cm)",
+              "pesoPorPorcionG": "60",
+              "foto": "imagenes/pescado-pargo.jpg"
+            },
+            {
+              "id": "pescado-tilapia",
+              "nombre": "Pescado, tilapia",
+              "medidaPorPorcion": "crudo: 1 filete (10 x 8 x 0,8 cm) / cocido: 1 filete (8,4 x 7 x 1 cm)",
+              "pesoPorPorcionG": "crudo: 60 / cocido: 55",
+              "foto": "imagenes/pescado-tilapia.jpg"
+            },
+            {
+              "id": "pescado-trucha-cruda",
+              "nombre": "Pescado, trucha, cruda",
+              "medidaPorPorcion": "Crudo: 1 filete (15 x 4,2 x 0,6 cm) · Cocido: 1 filete (14,5 x 4 x 0,5 cm)",
+              "pesoPorPorcionG": "50",
+              "foto": "imagenes/pescado-trucha-cruda.jpg"
+            },
+            {
+              "id": "pescado-atun-en-agua-o-aceite-enlatado",
+              "nombre": "Pescado, atún en agua o aceite, enlatado",
+              "medidaPorPorcion": "4 cdas. llenas, 1/4 de taza",
+              "pesoPorPorcionG": "40",
+              "foto": null
+            },
+            {
+              "id": "pescado-bagre",
+              "nombre": "Pescado, bagre",
+              "medidaPorPorcion": "Crudo: 1 trozo (7,9 x 3,9 x 3,2 cm) · Asado/cocido: (7,6 x 3,5 x 2,9 cm)",
+              "pesoPorPorcionG": "75",
+              "foto": null
+            }
+          ]
+        },
+        {
+          "id": "pollo-pierna-con-piel",
+          "nombre": "Pollo, pierna con piel",
+          "grupo": "Carnes, pescados y huevos",
+          "subgrupo": "Medios en grasas",
+          "porciones": 1,
+          "medidaPorPorcion": "1 unidad pequeña, 1/2 unidad mediana",
+          "pesoPorPorcionG": "55",
+          "foto": "imagenes/pollo-pierna-con-piel-cruda-o-cocida.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "huevo-de-gallina-entero",
+              "nombre": "Huevo de gallina, entero",
+              "medidaPorPorcion": "P: 2 uds. · M: 1 ud. · G: 1/2 ud.",
+              "pesoPorPorcionG": "50",
+              "foto": "imagenes/huevo-de-gallina-entero-crudo-o-cocido.jpg"
+            },
+            {
+              "id": "pescado-salmon",
+              "nombre": "Pescado, salmón",
+              "medidaPorPorcion": "Crudo: 1 trozo (13,1 x 3 x 2,4 cm) · Cocido: 1 trozo (12,1 x 3,5 x 2,2 cm)",
+              "pesoPorPorcionG": "60",
+              "foto": "imagenes/pescado-salmon.jpg"
+            },
+            {
+              "id": "sardina-en-salsa-de-tomate-enlatada",
+              "nombre": "Sardina en salsa de tomate, enlatada",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "55",
+              "foto": "imagenes/sardina-en-salsa-de-tomate-enlatada.jpg"
+            },
+            {
+              "id": "sardinas-en-aceite-enlatadas",
+              "nombre": "Sardinas en aceite, enlatadas",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "65",
+              "foto": null
+            }
+          ]
+        },
+        {
+          "id": "arveja-grano-seco-sin-sal",
+          "nombre": "Arveja, grano seco, sin sal",
+          "grupo": "Leguminosas",
+          "subgrupo": "Leguminosas",
+          "porciones": 1,
+          "medidaPorPorcion": "cocida: 4 1/2 cdas. colmadas, 1/2 taza / cruda: 3 cdas. ras, 1/8 de taza",
+          "pesoPorPorcionG": "cocida: 100 / cruda: 35",
+          "foto": "imagenes/arveja-grano-seco-sin-sal.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "chocho-con-sal-cocido",
+              "nombre": "Chocho, con sal, cocido",
+              "medidaPorPorcion": "1/2 taza",
+              "pesoPorPorcionG": "60",
+              "foto": "imagenes/chocho-con-sal-cocido.jpg"
+            },
+            {
+              "id": "frejol-blanco-sin-sal",
+              "nombre": "Fréjol blanco, sin sal",
+              "medidaPorPorcion": "cocido: 1/2 taza / crudo: 3 cdas. ras, 2 cdas. llenas, 1/8 de taza",
+              "pesoPorPorcionG": "cocido: 90 / crudo: 35",
+              "foto": "imagenes/frejol-blanco-sin-sal.jpg"
+            },
+            {
+              "id": "frejol-negro-sin-sal",
+              "nombre": "Fréjol negro, sin sal",
+              "medidaPorPorcion": "cocido: 1/2 taza / crudo: 3 1/2 cdas. ras, 2 cdas. llenas, 1/8 de taza",
+              "pesoPorPorcionG": "cocido: 90 / crudo: 40",
+              "foto": "imagenes/frejol-negro-sin-sal.jpg"
+            },
+            {
+              "id": "frejol-rojo-sin-sal",
+              "nombre": "Fréjol rojo, sin sal",
+              "medidaPorPorcion": "cocido: 1/2 taza / crudo: 3 cdas. ras, 2 cdas. llenas, 1/8 de taza",
+              "pesoPorPorcionG": "cocido: 90 / crudo: 35",
+              "foto": "imagenes/frejol-rojo-sin-sal.jpg"
+            },
+            {
+              "id": "garbanzo-sin-sal",
+              "nombre": "Garbanzo, sin sal",
+              "medidaPorPorcion": "cocido: 3/4 de taza / crudo: 2 cdas. llenas, 1/4 de taza",
+              "pesoPorPorcionG": "cocido: 90 / crudo: 35",
+              "foto": "imagenes/garbanzo-sin-sal.jpg"
+            },
+            {
+              "id": "lenteja-grano-seco-sin-sal",
+              "nombre": "Lenteja, grano seco, sin sal",
+              "medidaPorPorcion": "cocida: 3/4 de taza / cruda: 3 cdas. llenas, 1/4 de taza",
+              "pesoPorPorcionG": "cocida: 90 / cruda: 35",
+              "foto": "imagenes/lenteja-grano-seco-sin-sal.jpg"
+            }
+          ]
+        },
+        {
+          "id": "brocoli-cocido",
+          "nombre": "Brócoli, cocido",
+          "grupo": "Vegetales",
+          "subgrupo": "Bajos en CHO",
+          "porciones": 1,
+          "medidaPorPorcion": "1 taza ras (crudo: 70 g, 1 taza llena)",
+          "pesoPorPorcionG": "70",
+          "foto": "imagenes/brocoli-sin-sal-cocido.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "col-blanca-cruda",
+              "nombre": "Col blanca, cruda",
+              "medidaPorPorcion": "2 hojas, 1 taza llena",
+              "pesoPorPorcionG": "95",
+              "foto": "imagenes/col-blanca-sin-sal-cocida-cruda-100-g-2-tazas-llenas.jpg"
+            },
+            {
+              "id": "coliflor-cocida",
+              "nombre": "Coliflor, cocida",
+              "medidaPorPorcion": "1 taza ras (cruda: 100 g, 1 taza llena)",
+              "pesoPorPorcionG": "110",
+              "foto": "imagenes/coliflor-sin-sal-cocida.jpg"
+            },
+            {
+              "id": "espinaca-cocida",
+              "nombre": "Espinaca, cocida",
+              "medidaPorPorcion": "1 1/2 taza (cruda: 120 g, 3 tazas llenas)",
+              "pesoPorPorcionG": "120",
+              "foto": "imagenes/espinaca-sin-sal-cocida.jpg"
+            },
+            {
+              "id": "pimiento-rojo",
+              "nombre": "Pimiento rojo",
+              "medidaPorPorcion": "1/2 unidad mediana",
+              "pesoPorPorcionG": "75",
+              "foto": "imagenes/pimiento-rojo.jpg"
+            },
+            {
+              "id": "sambo",
+              "nombre": "Sambo",
+              "medidaPorPorcion": "3/4 de taza",
+              "pesoPorPorcionG": "95",
+              "foto": "imagenes/sambo-zapallo-tierno-crudo-o-cocido.jpg"
+            },
+            {
+              "id": "tomate-rinon-rojo",
+              "nombre": "Tomate riñón, rojo",
+              "medidaPorPorcion": "1/2 taza, 1/2 unidad, 3 rodajas",
+              "pesoPorPorcionG": "100",
+              "foto": "imagenes/tomate-rinon-rojo.jpg"
+            },
+            {
+              "id": "zanahoria-sin-cascara",
+              "nombre": "Zanahoria, sin cáscara",
+              "medidaPorPorcion": "1/3 de taza",
+              "pesoPorPorcionG": "50",
+              "foto": "imagenes/zanahoria-sin-cascara-cruda-o-cocida.jpg"
+            },
+            {
+              "id": "zapallo-o-calabaza-amarilla-crudo",
+              "nombre": "Zapallo o calabaza amarilla, crudo",
+              "medidaPorPorcion": "1/4 de taza",
+              "pesoPorPorcionG": "60",
+              "foto": "imagenes/zapallo-o-calabaza-amarilla-cocido-crudo-60-g-1-2-taza.jpg"
+            }
+          ]
+        },
+        {
+          "id": "remolacha-cocida",
+          "nombre": "Remolacha, cocida",
+          "grupo": "Vegetales",
+          "subgrupo": "Bajos en CHO",
+          "porciones": 1,
+          "medidaPorPorcion": "1/3 de taza",
+          "pesoPorPorcionG": "50",
+          "foto": "imagenes/remolacha-sin-sal-cocida.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "col-blanca-cruda",
+              "nombre": "Col blanca, cruda",
+              "medidaPorPorcion": "2 hojas, 1 taza llena",
+              "pesoPorPorcionG": "95",
+              "foto": "imagenes/col-blanca-sin-sal-cocida-cruda-100-g-2-tazas-llenas.jpg"
+            },
+            {
+              "id": "coliflor-cocida",
+              "nombre": "Coliflor, cocida",
+              "medidaPorPorcion": "1 taza ras (cruda: 100 g, 1 taza llena)",
+              "pesoPorPorcionG": "110",
+              "foto": "imagenes/coliflor-sin-sal-cocida.jpg"
+            },
+            {
+              "id": "espinaca-cocida",
+              "nombre": "Espinaca, cocida",
+              "medidaPorPorcion": "1 1/2 taza (cruda: 120 g, 3 tazas llenas)",
+              "pesoPorPorcionG": "120",
+              "foto": "imagenes/espinaca-sin-sal-cocida.jpg"
+            },
+            {
+              "id": "pimiento-rojo",
+              "nombre": "Pimiento rojo",
+              "medidaPorPorcion": "1/2 unidad mediana",
+              "pesoPorPorcionG": "75",
+              "foto": "imagenes/pimiento-rojo.jpg"
+            },
+            {
+              "id": "sambo",
+              "nombre": "Sambo",
+              "medidaPorPorcion": "3/4 de taza",
+              "pesoPorPorcionG": "95",
+              "foto": "imagenes/sambo-zapallo-tierno-crudo-o-cocido.jpg"
+            },
+            {
+              "id": "tomate-rinon-rojo",
+              "nombre": "Tomate riñón, rojo",
+              "medidaPorPorcion": "1/2 taza, 1/2 unidad, 3 rodajas",
+              "pesoPorPorcionG": "100",
+              "foto": "imagenes/tomate-rinon-rojo.jpg"
+            },
+            {
+              "id": "zanahoria-sin-cascara",
+              "nombre": "Zanahoria, sin cáscara",
+              "medidaPorPorcion": "1/3 de taza",
+              "pesoPorPorcionG": "50",
+              "foto": "imagenes/zanahoria-sin-cascara-cruda-o-cocida.jpg"
+            },
+            {
+              "id": "zapallo-o-calabaza-amarilla-crudo",
+              "nombre": "Zapallo o calabaza amarilla, crudo",
+              "medidaPorPorcion": "1/4 de taza",
+              "pesoPorPorcionG": "60",
+              "foto": "imagenes/zapallo-o-calabaza-amarilla-cocido-crudo-60-g-1-2-taza.jpg"
+            }
+          ]
+        },
+        {
+          "id": "naranja-nacional",
+          "nombre": "Naranja nacional",
+          "grupo": "Frutas",
+          "subgrupo": "Medias en CHO",
+          "porciones": 0.5,
+          "medidaPorPorcion": "P: 1 ud. · M: 3/4 de ud. · G: 1/2 ud.",
+          "pesoPorPorcionG": "180",
+          "foto": "imagenes/naranja-nacional.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "banano-guineo",
+              "nombre": "Banano guineo",
+              "medidaPorPorcion": "P: 2 uds. · M: 1 ud. · G: 3/4 de ud.",
+              "pesoPorPorcionG": "110",
+              "foto": "imagenes/banano-guineo-platano-de-seda.jpg"
+            },
+            {
+              "id": "banano-orito",
+              "nombre": "Banano orito",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "90",
+              "foto": "imagenes/banano-orito.jpg"
+            },
+            {
+              "id": "granadilla",
+              "nombre": "Granadilla",
+              "medidaPorPorcion": "1/4 de taza, 1 unidad grande",
+              "pesoPorPorcionG": "80",
+              "foto": "imagenes/granadilla.jpg"
+            },
+            {
+              "id": "manzana-nacional-con-cascara",
+              "nombre": "Manzana nacional, con cáscara",
+              "medidaPorPorcion": "1 unidad mediana",
+              "pesoPorPorcionG": "160",
+              "foto": "imagenes/manzana-nacional-con-cascara.jpg"
+            },
+            {
+              "id": "pera-nacional",
+              "nombre": "Pera nacional",
+              "medidaPorPorcion": "1 unidad",
+              "pesoPorPorcionG": "130",
+              "foto": "imagenes/pera-nacional.jpg"
+            },
+            {
+              "id": "uva-verde",
+              "nombre": "Uva verde",
+              "medidaPorPorcion": "20-22 unidades pequeñas",
+              "pesoPorPorcionG": "120",
+              "foto": "imagenes/uva-verde.jpg"
+            }
+          ]
+        },
+        {
+          "id": "aceite-de-canola",
+          "nombre": "Aceite de canola",
+          "grupo": "Grasas y frutos secos",
+          "subgrupo": "Altos en grasas",
+          "porciones": 0.5,
+          "medidaPorPorcion": "2 cdas",
+          "pesoPorPorcionG": "15",
+          "foto": null,
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "aceite-de-girasol",
+              "nombre": "Aceite de girasol",
+              "medidaPorPorcion": "2 cdas",
+              "pesoPorPorcionG": "15",
+              "foto": null
+            },
+            {
+              "id": "aceite-de-oliva",
+              "nombre": "Aceite de oliva",
+              "medidaPorPorcion": "2 cdas",
+              "pesoPorPorcionG": "15",
+              "foto": null
+            }
+          ]
+        },
+        {
+          "id": "aguacate-serrano",
+          "nombre": "Aguacate, serrano",
+          "grupo": "Grasas y frutos secos",
+          "subgrupo": "Medios en grasas",
+          "porciones": 0.5,
+          "medidaPorPorcion": "1 unidad",
+          "pesoPorPorcionG": "50",
+          "foto": "imagenes/aguacate-serrano.jpg",
+          "nota": null,
+          "alternativas": [
+            {
+              "id": "aguacate-o-palta-comun",
+              "nombre": "Aguacate o palta, común",
+              "medidaPorPorcion": "1/4 de unidad",
+              "pesoPorPorcionG": "50",
+              "foto": "imagenes/aguacate-o-palta-comun.jpg"
+            }
+          ]
+        }
+      ],
+      "aporte": {
+        "kcal": 615,
+        "cho": 71.5,
+        "proteina": 33,
+        "grasa": 19.5
+      }
+    }
+  ],
+  "totalDia": {
+    "kcal": 2672.5,
+    "cho": 352.5,
+    "proteina": 130,
+    "grasa": 72.5
+  },
+  "advertencias": [
+    "Alimentos sin foto en el libro: Aceite de girasol, Aceite de canola."
+  ]
+}

@@ -1,0 +1,1583 @@
+[
+ {
+  "id": "arroz-blanco-grano-largo-cocido",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Arroz blanco, grano largo, cocido",
+  "nombreCompleto": "Arroz blanco, grano largo (cocido)",
+  "pesoG": "110",
+  "medidaCasera": "3/4 de taza",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/arroz-blanco-grano-largo-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "arroz-integral-grano-largo-cocido",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Arroz integral, grano largo, cocido",
+  "nombreCompleto": "Arroz integral, grano largo (cocido)",
+  "pesoG": "120",
+  "medidaCasera": "3/4 de taza",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/arroz-integral-grano-largo-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "avena-en-hojuelas-sin-fortificar-mosh",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Avena en hojuelas sin fortificar, Mosh",
+  "nombreCompleto": "Avena en hojuelas sin fortificar, Mosh (en seco)",
+  "pesoG": "40",
+  "medidaCasera": "4 cdas. llenas, 1/3 de taza",
+  "comidas": [
+   "Desayuno",
+   "MT"
+  ],
+  "foto": "imagenes/avena-en-hojuelas-sin-fortificar-mosh-en-seco.jpg",
+  "nota": null
+ },
+ {
+  "id": "quinua-cocida",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Quinua, cocida",
+  "nombreCompleto": "Quinua (cocida)",
+  "pesoG": "130",
+  "medidaCasera": "1 taza ras",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/quinua-cocida.jpg",
+  "nota": null
+ },
+ {
+  "id": "papa-sin-cascara",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Papa, sin cáscara",
+  "nombreCompleto": "Papa, sin cáscara (cruda o cocida)",
+  "pesoG": "120",
+  "medidaCasera": "P: 12 uds. · M: 2 uds. · G: 1 ud. · EG: 1/2 ud.",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/papa-sin-cascara-cruda-o-cocida.jpg",
+  "nota": null
+ },
+ {
+  "id": "papa-amarilla-chaucha",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Papa amarilla, chaucha",
+  "nombreCompleto": "Papa amarilla, chaucha (cruda o cocida)",
+  "pesoG": "110",
+  "medidaCasera": "1 taza llena, 9 unidades",
+  "comidas": [
+   "Almuerzo"
+  ],
+  "foto": "imagenes/papa-amarilla-chaucha-cruda-o-cocida.jpg",
+  "nota": null
+ },
+ {
+  "id": "yuca-o-mandioca-raiz",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Yuca o mandioca, raíz",
+  "nombreCompleto": "Yuca o mandioca, raíz (cruda o cocida)",
+  "pesoG": "90",
+  "medidaCasera": "3/4 de taza",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/yuca-o-mandioca-raiz-cruda-o-cocida.jpg",
+  "nota": null
+ },
+ {
+  "id": "camote-cocido",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Camote, cocido",
+  "nombreCompleto": "Camote (cocido)",
+  "pesoG": "145",
+  "medidaCasera": "1 taza llena",
+  "comidas": [
+   "Almuerzo",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/camote-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "platano-verde-crudo",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Plátano verde, crudo",
+  "nombreCompleto": "Plátano verde (crudo)",
+  "pesoG": "90",
+  "medidaCasera": "P: 3/4 de unidad · G: 1/3 de unidad",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/platano-verde-crudo.jpg",
+  "nota": null
+ },
+ {
+  "id": "platano-maduro-o-maqueno",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Plátano maduro o maqueño",
+  "nombreCompleto": "Plátano maduro o maqueño (crudo o cocido)",
+  "pesoG": "100",
+  "medidaCasera": "4 rodajas, 1/4 de unidad",
+  "comidas": [
+   "Desayuno",
+   "Almuerzo"
+  ],
+  "foto": null,
+  "nota": null
+ },
+ {
+  "id": "maiz-tipo-mote-cocido",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Maíz tipo mote, cocido",
+  "nombreCompleto": "Maíz tipo mote (cocido)",
+  "pesoG": "90",
+  "medidaCasera": "3/4 de taza",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/maiz-tipo-mote-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "morocho-maiz-blanco-crudo",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Morocho, maíz blanco, crudo",
+  "nombreCompleto": "Morocho, maíz blanco (crudo)",
+  "pesoG": "50",
+  "medidaCasera": "3 cdas. llenas, 1/3 de taza",
+  "comidas": [
+   "Desayuno",
+   "MT"
+  ],
+  "foto": "imagenes/morocho-maiz-blanco-crudo.jpg",
+  "nota": null
+ },
+ {
+  "id": "fideo-espagueti-cocido",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Fideo, espagueti, cocido",
+  "nombreCompleto": "Fideo, espagueti (cocido)",
+  "pesoG": "100",
+  "medidaCasera": "1 taza ras",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/fideo-espagueti-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "fideo-espagueti-integral-cocido",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Fideo, espagueti integral, cocido",
+  "nombreCompleto": "Fideo, espagueti integral (cocido)",
+  "pesoG": "100",
+  "medidaCasera": "1 taza llena",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/fideo-espagueti-integral-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "pan-de-trigo-natural-o-tostado",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Pan de trigo, natural o tostado",
+  "nombreCompleto": "Pan de trigo, natural o tostado",
+  "pesoG": "60",
+  "medidaCasera": "1 unidad",
+  "comidas": [
+   "Desayuno"
+  ],
+  "foto": "imagenes/pan-de-trigo-natural-o-tostado.jpg",
+  "nota": null
+ },
+ {
+  "id": "pan-integral-tipo-pita",
+  "grupo": "Cereales",
+  "subgrupo": "Altos en CHO y bajos en grasas",
+  "nombre": "Pan integral, tipo pita",
+  "nombreCompleto": "Pan integral, tipo pita",
+  "pesoG": "50",
+  "medidaCasera": "1 unidad",
+  "comidas": [
+   "Desayuno"
+  ],
+  "foto": null,
+  "nota": null
+ },
+ {
+  "id": "chulpi-maiz-amarillo",
+  "grupo": "Cereales",
+  "subgrupo": "Medios en CHO y medios en grasas",
+  "nombre": "Chulpi, maíz amarillo",
+  "nombreCompleto": "Chulpi, maíz amarillo",
+  "pesoG": "30",
+  "medidaCasera": "3 cdas. llenas, 1/4 de taza",
+  "comidas": [
+   "MM",
+   "MT"
+  ],
+  "foto": "imagenes/chulpi-maiz-amarillo.jpg",
+  "nota": null
+ },
+ {
+  "id": "tostado-maiz-amarillo",
+  "grupo": "Cereales",
+  "subgrupo": "Medios en CHO y medios en grasas",
+  "nombre": "Tostado, maíz amarillo",
+  "nombreCompleto": "Tostado, maíz amarillo",
+  "pesoG": "30",
+  "medidaCasera": "3 cdas. llenas, 1/4 de taza",
+  "comidas": [
+   "MM"
+  ],
+  "foto": "imagenes/tostado-maiz-amarillo.jpg",
+  "nota": null
+ },
+ {
+  "id": "canguil-palomitas-de-maiz-con-sal",
+  "grupo": "Cereales",
+  "subgrupo": "Medios en CHO y medios en grasas",
+  "nombre": "Canguil, palomitas de maíz, con sal",
+  "nombreCompleto": "Canguil, palomitas de maíz, con sal (crudo / cocido)",
+  "pesoG": "30",
+  "medidaCasera": "Crudo: 2 cdas. llenas · Cocido: 4 tazas llenas",
+  "comidas": [
+   "MM",
+   "MT"
+  ],
+  "foto": "imagenes/canguil-palomitas-de-maiz-con-sal-crudo-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "pan-de-yuca",
+  "grupo": "Cereales",
+  "subgrupo": "Medios en CHO y medios en grasas",
+  "nombre": "Pan de yuca",
+  "nombreCompleto": "Pan de yuca",
+  "pesoG": "50",
+  "medidaCasera": "2 unidades",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "MT"
+  ],
+  "foto": "imagenes/pan-de-yuca.jpg",
+  "nota": null
+ },
+ {
+  "id": "harina-de-cebada-machica",
+  "grupo": "Cereales",
+  "subgrupo": "Medios en CHO y bajos en grasas",
+  "nombre": "Harina de cebada, máchica",
+  "nombreCompleto": "Harina de cebada, máchica",
+  "pesoG": "30",
+  "medidaCasera": "3 cdas. colmadas",
+  "comidas": [
+   "Desayuno",
+   "MT"
+  ],
+  "foto": null,
+  "nota": null
+ },
+ {
+  "id": "tortilla-de-maiz-amarillo",
+  "grupo": "Cereales",
+  "subgrupo": "Medios en CHO y bajos en grasas",
+  "nombre": "Tortilla de maíz, amarillo",
+  "nombreCompleto": "Tortilla de maíz, amarillo",
+  "pesoG": "60",
+  "medidaCasera": "2 unidades",
+  "comidas": [
+   "Desayuno",
+   "MT"
+  ],
+  "foto": "imagenes/tortilla-de-maiz-amarillo.jpg",
+  "nota": null
+ },
+ {
+  "id": "pan-integral-de-rodaja-natural-o-tostado",
+  "grupo": "Cereales",
+  "subgrupo": "Medios en CHO y bajos en grasas",
+  "nombre": "Pan integral de rodaja, natural o tostado",
+  "nombreCompleto": "Pan integral de rodaja, natural o tostado",
+  "pesoG": "44",
+  "medidaCasera": "2 unidades",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "MT"
+  ],
+  "foto": "imagenes/pan-integral-de-rodaja-natural-o-tostado.jpg",
+  "nota": null
+ },
+ {
+  "id": "pan-blanco-de-rodaja-natural-o-tostado",
+  "grupo": "Cereales",
+  "subgrupo": "Medios en CHO y bajos en grasas",
+  "nombre": "Pan blanco de rodaja, natural o tostado",
+  "nombreCompleto": "Pan blanco de rodaja, natural o tostado",
+  "pesoG": "50",
+  "medidaCasera": "2 unidades",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "MT"
+  ],
+  "foto": "imagenes/pan-blanco-de-rodaja-natural-o-tostado.jpg",
+  "nota": null
+ },
+ {
+  "id": "melloco-u-olluco",
+  "grupo": "Cereales",
+  "subgrupo": "Medios en CHO y bajos en grasas",
+  "nombre": "Melloco u olluco",
+  "nombreCompleto": "Melloco u olluco (crudo o cocido)",
+  "pesoG": "140",
+  "medidaCasera": "1 taza ras, 13 unidades",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/melloco-u-olluco-crudo-o-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "banano-orito",
+  "grupo": "Frutas",
+  "subgrupo": "Medias en CHO",
+  "nombre": "Banano orito",
+  "nombreCompleto": "Banano orito",
+  "pesoG": "90",
+  "medidaCasera": "1 unidad",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/banano-orito.jpg",
+  "nota": null
+ },
+ {
+  "id": "banano-guineo",
+  "grupo": "Frutas",
+  "subgrupo": "Medias en CHO",
+  "nombre": "Banano guineo",
+  "nombreCompleto": "Banano guineo (plátano de seda)",
+  "pesoG": "110",
+  "medidaCasera": "P: 2 uds. · M: 1 ud. · G: 3/4 de ud.",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/banano-guineo-platano-de-seda.jpg",
+  "nota": null
+ },
+ {
+  "id": "manzana-nacional-con-cascara",
+  "grupo": "Frutas",
+  "subgrupo": "Medias en CHO",
+  "nombre": "Manzana nacional, con cáscara",
+  "nombreCompleto": "Manzana nacional, con cáscara",
+  "pesoG": "160",
+  "medidaCasera": "1 unidad mediana",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "Almuerzo",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/manzana-nacional-con-cascara.jpg",
+  "nota": null
+ },
+ {
+  "id": "pera-nacional",
+  "grupo": "Frutas",
+  "subgrupo": "Medias en CHO",
+  "nombre": "Pera nacional",
+  "nombreCompleto": "Pera nacional",
+  "pesoG": "130",
+  "medidaCasera": "1 unidad",
+  "comidas": [
+   "MM",
+   "Almuerzo",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/pera-nacional.jpg",
+  "nota": null
+ },
+ {
+  "id": "naranja-nacional",
+  "grupo": "Frutas",
+  "subgrupo": "Medias en CHO",
+  "nombre": "Naranja nacional",
+  "nombreCompleto": "Naranja nacional",
+  "pesoG": "180",
+  "medidaCasera": "P: 1 ud. · M: 3/4 de ud. · G: 1/2 ud.",
+  "comidas": [
+   "Desayuno",
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/naranja-nacional.jpg",
+  "nota": null
+ },
+ {
+  "id": "durazno-comun-con-cascara",
+  "grupo": "Frutas",
+  "subgrupo": "Medias en CHO",
+  "nombre": "Durazno común con cáscara",
+  "nombreCompleto": "Durazno común con cáscara (fruta criolla)",
+  "pesoG": "110",
+  "medidaCasera": "1 unidad",
+  "comidas": [
+   "MM",
+   "Almuerzo"
+  ],
+  "foto": "imagenes/durazno-comun-con-cascara-fruta-criolla.jpg",
+  "nota": null
+ },
+ {
+  "id": "mango-criollo",
+  "grupo": "Frutas",
+  "subgrupo": "Medias en CHO",
+  "nombre": "Mango criollo",
+  "nombreCompleto": "Mango criollo",
+  "pesoG": "200",
+  "medidaCasera": "2 unidades",
+  "comidas": [
+   "Almuerzo"
+  ],
+  "foto": "imagenes/mango-criollo.jpg",
+  "nota": null
+ },
+ {
+  "id": "pina",
+  "grupo": "Frutas",
+  "subgrupo": "Medias en CHO",
+  "nombre": "Piña",
+  "nombreCompleto": "Piña",
+  "pesoG": "150",
+  "medidaCasera": "1 1/2 taza en rodajas, 1 taza en cubos",
+  "comidas": [
+   "Desayuno",
+   "Almuerzo"
+  ],
+  "foto": "imagenes/pina.jpg",
+  "nota": null
+ },
+ {
+  "id": "capuli-o-capulina",
+  "grupo": "Frutas",
+  "subgrupo": "Medias en CHO",
+  "nombre": "Capulí o capulina",
+  "nombreCompleto": "Capulí o capulina",
+  "pesoG": "120",
+  "medidaCasera": "1 taza llena",
+  "comidas": [
+   "MM"
+  ],
+  "foto": "imagenes/capuli-o-capulina.jpg",
+  "nota": null
+ },
+ {
+  "id": "granadilla",
+  "grupo": "Frutas",
+  "subgrupo": "Medias en CHO",
+  "nombre": "Granadilla",
+  "nombreCompleto": "Granadilla",
+  "pesoG": "80",
+  "medidaCasera": "1/4 de taza, 1 unidad grande",
+  "comidas": [
+   "MM",
+   "Cena"
+  ],
+  "foto": "imagenes/granadilla.jpg",
+  "nota": null
+ },
+ {
+  "id": "chirimoya",
+  "grupo": "Frutas",
+  "subgrupo": "Medias en CHO",
+  "nombre": "Chirimoya",
+  "nombreCompleto": "Chirimoya",
+  "pesoG": "120",
+  "medidaCasera": "1/2 taza, M: 1/2 unidad",
+  "comidas": [],
+  "foto": "imagenes/chirimoya.jpg",
+  "nota": null
+ },
+ {
+  "id": "uva-verde",
+  "grupo": "Frutas",
+  "subgrupo": "Medias en CHO",
+  "nombre": "Uva verde",
+  "nombreCompleto": "Uva verde",
+  "pesoG": "120",
+  "medidaCasera": "20-22 unidades pequeñas",
+  "comidas": [
+   "MM",
+   "Cena"
+  ],
+  "foto": "imagenes/uva-verde.jpg",
+  "nota": null
+ },
+ {
+  "id": "kiwi",
+  "grupo": "Frutas",
+  "subgrupo": "Medias en CHO",
+  "nombre": "Kiwi",
+  "nombreCompleto": "Kiwi",
+  "pesoG": "170",
+  "medidaCasera": "1 1/2 unidad",
+  "comidas": [
+   "Desayuno",
+   "MT"
+  ],
+  "foto": "imagenes/kiwi.jpg",
+  "nota": null
+ },
+ {
+  "id": "maracuya-o-granadilla-morada",
+  "grupo": "Frutas",
+  "subgrupo": "Medias en CHO",
+  "nombre": "Maracuyá o granadilla morada",
+  "nombreCompleto": "Maracuyá o granadilla morada (pulpa)",
+  "pesoG": "100",
+  "medidaCasera": "1/4 de taza, M: 1 unidad",
+  "comidas": [],
+  "foto": "imagenes/maracuya-o-granadilla-morada-pulpa.jpg",
+  "nota": null
+ },
+ {
+  "id": "frutilla",
+  "grupo": "Frutas",
+  "subgrupo": "Bajas en CHO",
+  "nombre": "Frutilla",
+  "nombreCompleto": "Frutilla",
+  "pesoG": "100",
+  "medidaCasera": "P: 10 uds. · M: 8 uds. · G: 5-6 uds.",
+  "comidas": [
+   "Desayuno",
+   "MT"
+  ],
+  "foto": "imagenes/frutilla.jpg",
+  "nota": null
+ },
+ {
+  "id": "mora",
+  "grupo": "Frutas",
+  "subgrupo": "Bajas en CHO",
+  "nombre": "Mora",
+  "nombreCompleto": "Mora",
+  "pesoG": "90",
+  "medidaCasera": "3/4 de taza",
+  "comidas": [
+   "Desayuno",
+   "MT"
+  ],
+  "foto": "imagenes/mora.jpg",
+  "nota": null
+ },
+ {
+  "id": "guayaba-madura",
+  "grupo": "Frutas",
+  "subgrupo": "Bajas en CHO",
+  "nombre": "Guayaba madura",
+  "nombreCompleto": "Guayaba madura",
+  "pesoG": "100",
+  "medidaCasera": "P: 1 1/4 uds. · M: 3/4 de ud. · G: 1/2 ud.",
+  "comidas": [
+   "MM",
+   "MT"
+  ],
+  "foto": "imagenes/guayaba-madura.jpg",
+  "nota": null
+ },
+ {
+  "id": "papaya-o-lechosa",
+  "grupo": "Frutas",
+  "subgrupo": "Bajas en CHO",
+  "nombre": "Papaya o lechosa",
+  "nombreCompleto": "Papaya o lechosa",
+  "pesoG": "100",
+  "medidaCasera": "1 taza ras",
+  "comidas": [
+   "Desayuno",
+   "Almuerzo",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/papaya-o-lechosa.jpg",
+  "nota": null
+ },
+ {
+  "id": "tomate-de-arbol",
+  "grupo": "Frutas",
+  "subgrupo": "Bajas en CHO",
+  "nombre": "Tomate de árbol",
+  "nombreCompleto": "Tomate de árbol",
+  "pesoG": "120",
+  "medidaCasera": "P: 3 uds. · M: 2 uds. · G: 3/4 de ud.",
+  "comidas": [],
+  "foto": "imagenes/tomate-de-arbol.jpg",
+  "nota": null
+ },
+ {
+  "id": "babaco-sin-cascara",
+  "grupo": "Frutas",
+  "subgrupo": "Bajas en CHO",
+  "nombre": "Babaco, sin cáscara",
+  "nombreCompleto": "Babaco, sin cáscara",
+  "pesoG": "200",
+  "medidaCasera": "1 taza llena",
+  "comidas": [],
+  "foto": "imagenes/babaco-sin-cascara.jpg",
+  "nota": null
+ },
+ {
+  "id": "mandarina",
+  "grupo": "Frutas",
+  "subgrupo": "Bajas en CHO",
+  "nombre": "Mandarina",
+  "nombreCompleto": "Mandarina",
+  "pesoG": "70",
+  "medidaCasera": "2 patateñas, 1 costeña, 1 importada, 1/2 King",
+  "comidas": [
+   "MM",
+   "Almuerzo",
+   "MT"
+  ],
+  "foto": "imagenes/mandarina.jpg",
+  "nota": null
+ },
+ {
+  "id": "sandia",
+  "grupo": "Frutas",
+  "subgrupo": "Bajas en CHO",
+  "nombre": "Sandía",
+  "nombreCompleto": "Sandía",
+  "pesoG": "100",
+  "medidaCasera": "1 taza ras",
+  "comidas": [
+   "MM",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/sandia.jpg",
+  "nota": null
+ },
+ {
+  "id": "araza",
+  "grupo": "Frutas",
+  "subgrupo": "Bajas en CHO",
+  "nombre": "Araza",
+  "nombreCompleto": "Araza",
+  "pesoG": "130",
+  "medidaCasera": "3/4 de taza · P: 2 uds. · M: 1 ud.",
+  "comidas": [],
+  "foto": "imagenes/araza.jpg",
+  "nota": null
+ },
+ {
+  "id": "guaba",
+  "grupo": "Frutas",
+  "subgrupo": "Bajas en CHO",
+  "nombre": "Guaba",
+  "nombreCompleto": "Guaba",
+  "pesoG": "60",
+  "medidaCasera": "1 unidad pequeña, 1/4 de taza",
+  "comidas": [],
+  "foto": null,
+  "nota": null
+ },
+ {
+  "id": "brocoli-cocido",
+  "grupo": "Vegetales",
+  "subgrupo": "Bajos en CHO",
+  "nombre": "Brócoli, cocido",
+  "nombreCompleto": "Brócoli (sin sal, cocido)",
+  "pesoG": "70",
+  "medidaCasera": "1 taza ras (crudo: 70 g, 1 taza llena)",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/brocoli-sin-sal-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "coliflor-cocida",
+  "grupo": "Vegetales",
+  "subgrupo": "Bajos en CHO",
+  "nombre": "Coliflor, cocida",
+  "nombreCompleto": "Coliflor (sin sal, cocida)",
+  "pesoG": "110",
+  "medidaCasera": "1 taza ras (cruda: 100 g, 1 taza llena)",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/coliflor-sin-sal-cocida.jpg",
+  "nota": null
+ },
+ {
+  "id": "espinaca-cocida",
+  "grupo": "Vegetales",
+  "subgrupo": "Bajos en CHO",
+  "nombre": "Espinaca, cocida",
+  "nombreCompleto": "Espinaca (sin sal, cocida)",
+  "pesoG": "120",
+  "medidaCasera": "1 1/2 taza (cruda: 120 g, 3 tazas llenas)",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/espinaca-sin-sal-cocida.jpg",
+  "nota": null
+ },
+ {
+  "id": "zanahoria-sin-cascara",
+  "grupo": "Vegetales",
+  "subgrupo": "Bajos en CHO",
+  "nombre": "Zanahoria, sin cáscara",
+  "nombreCompleto": "Zanahoria, sin cáscara (cruda o cocida)",
+  "pesoG": "50",
+  "medidaCasera": "1/3 de taza",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "Almuerzo",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/zanahoria-sin-cascara-cruda-o-cocida.jpg",
+  "nota": null
+ },
+ {
+  "id": "zapallo-o-calabaza-amarilla-crudo",
+  "grupo": "Vegetales",
+  "subgrupo": "Bajos en CHO",
+  "nombre": "Zapallo o calabaza amarilla, crudo",
+  "nombreCompleto": "Zapallo o calabaza amarilla (cocido (crudo: 60 g, 1/2 taza))",
+  "pesoG": "60",
+  "medidaCasera": "1/4 de taza",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/zapallo-o-calabaza-amarilla-cocido-crudo-60-g-1-2-taza.jpg",
+  "nota": null
+ },
+ {
+  "id": "tomate-rinon-rojo",
+  "grupo": "Vegetales",
+  "subgrupo": "Bajos en CHO",
+  "nombre": "Tomate riñón, rojo",
+  "nombreCompleto": "Tomate riñón, rojo",
+  "pesoG": "100",
+  "medidaCasera": "1/2 taza, 1/2 unidad, 3 rodajas",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "Almuerzo",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/tomate-rinon-rojo.jpg",
+  "nota": null
+ },
+ {
+  "id": "pimiento-rojo",
+  "grupo": "Vegetales",
+  "subgrupo": "Bajos en CHO",
+  "nombre": "Pimiento rojo",
+  "nombreCompleto": "Pimiento rojo",
+  "pesoG": "75",
+  "medidaCasera": "1/2 unidad mediana",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "Almuerzo",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/pimiento-rojo.jpg",
+  "nota": null
+ },
+ {
+  "id": "col-blanca-cruda",
+  "grupo": "Vegetales",
+  "subgrupo": "Bajos en CHO",
+  "nombre": "Col blanca, cruda",
+  "nombreCompleto": "Col blanca (sin sal, cocida (cruda: 100 g, 2 tazas llenas))",
+  "pesoG": "95",
+  "medidaCasera": "2 hojas, 1 taza llena",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/col-blanca-sin-sal-cocida-cruda-100-g-2-tazas-llenas.jpg",
+  "nota": null
+ },
+ {
+  "id": "remolacha-cocida",
+  "grupo": "Vegetales",
+  "subgrupo": "Bajos en CHO",
+  "nombre": "Remolacha, cocida",
+  "nombreCompleto": "Remolacha (sin sal, cocida)",
+  "pesoG": "50",
+  "medidaCasera": "1/3 de taza",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/remolacha-sin-sal-cocida.jpg",
+  "nota": null
+ },
+ {
+  "id": "zuquini",
+  "grupo": "Vegetales",
+  "subgrupo": "Bajos en CHO",
+  "nombre": "Zuquini",
+  "nombreCompleto": "Zuquini (crudo o cocido)",
+  "pesoG": "150",
+  "medidaCasera": "1 taza colmada",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/zuquini-crudo-o-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "haba-tierna-con-o-sin-cascara",
+  "grupo": "Vegetales",
+  "subgrupo": "Bajos en CHO",
+  "nombre": "Haba tierna, con o sin cáscara",
+  "nombreCompleto": "Haba tierna, con o sin cáscara (cruda o cocida)",
+  "pesoG": "40",
+  "medidaCasera": "1/4 de taza · P: 28 uds. · M: 22 uds. · G: 12 uds.",
+  "comidas": [
+   "Almuerzo"
+  ],
+  "foto": "imagenes/haba-tierna-con-o-sin-cascara-cruda-o-cocida.jpg",
+  "nota": null
+ },
+ {
+  "id": "choclo-en-grano",
+  "grupo": "Vegetales",
+  "subgrupo": "Bajos en CHO",
+  "nombre": "Choclo en grano",
+  "nombreCompleto": "Choclo (maíz tierno) en grano (amarillo o blanco, crudo o cocido)",
+  "pesoG": "20",
+  "medidaCasera": "2 cdas. llenas, 1/4 de taza (blanco: 1/3 de mazorca)",
+  "comidas": [
+   "Almuerzo"
+  ],
+  "foto": "imagenes/ref-choclo-en-grano.jpg",
+  "nota": null,
+  "fotoReferencia": "Foto de referencia del libro USFQ: Maíz, dulce, enlatado. No es exactamente este alimento."
+ },
+ {
+  "id": "sambo",
+  "grupo": "Vegetales",
+  "subgrupo": "Bajos en CHO",
+  "nombre": "Sambo",
+  "nombreCompleto": "Sambo (zapallo tierno) (crudo o cocido)",
+  "pesoG": "95",
+  "medidaCasera": "3/4 de taza",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/sambo-zapallo-tierno-crudo-o-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "leche-de-vaca-fluida-2-de-grasa",
+  "grupo": "Lácteos",
+  "subgrupo": "Semidescremados",
+  "nombre": "Leche de vaca fluida, 2 % de grasa",
+  "nombreCompleto": "Leche de vaca fluida, 2 % de grasa",
+  "pesoG": "240",
+  "medidaCasera": "1 taza, 3/4 de vaso",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "Almuerzo",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/leche-de-vaca-fluida-2-de-grasa.jpg",
+  "nota": null
+ },
+ {
+  "id": "yogur-natural-leche-semidescremada",
+  "grupo": "Lácteos",
+  "subgrupo": "Semidescremados",
+  "nombre": "Yogur natural, leche semidescremada",
+  "nombreCompleto": "Yogur natural, leche semidescremada",
+  "pesoG": "200",
+  "medidaCasera": "7/8 de taza, 3/4 de vaso",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "Almuerzo",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/yogur-natural-leche-semidescremada.jpg",
+  "nota": null
+ },
+ {
+  "id": "leche-de-vaca-fluida-1-de-grasa",
+  "grupo": "Lácteos",
+  "subgrupo": "Descremados (bajos en grasas)",
+  "nombre": "Leche de vaca fluida, 1 % de grasa",
+  "nombreCompleto": "Leche de vaca fluida, 1 % de grasa",
+  "pesoG": "240",
+  "medidaCasera": "1 taza, 3/4 de vaso",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "Almuerzo",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/leche-de-vaca-fluida-1-de-grasa.jpg",
+  "nota": null
+ },
+ {
+  "id": "yogur-natural-leche-descremada",
+  "grupo": "Lácteos",
+  "subgrupo": "Descremados (bajos en grasas)",
+  "nombre": "Yogur natural, leche descremada",
+  "nombreCompleto": "Yogur natural, leche descremada",
+  "pesoG": "150",
+  "medidaCasera": "3/4 de taza, 1/2 vaso",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "Almuerzo",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/yogur-natural-leche-descremada.jpg",
+  "nota": null
+ },
+ {
+  "id": "huevo-de-gallina-entero",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Medios en grasas",
+  "nombre": "Huevo de gallina, entero",
+  "nombreCompleto": "Huevo de gallina, entero (crudo o cocido)",
+  "pesoG": "50",
+  "medidaCasera": "P: 2 uds. · M: 1 ud. · G: 1/2 ud.",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "Almuerzo",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/huevo-de-gallina-entero-crudo-o-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "pescado-salmon",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Medios en grasas",
+  "nombre": "Pescado, salmón",
+  "nombreCompleto": "Pescado, salmón",
+  "pesoG": "60",
+  "medidaCasera": "Crudo: 1 trozo (13,1 x 3 x 2,4 cm) · Cocido: 1 trozo (12,1 x 3,5 x 2,2 cm)",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/pescado-salmon.jpg",
+  "nota": null
+ },
+ {
+  "id": "sardinas-en-aceite-enlatadas",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Medios en grasas",
+  "nombre": "Sardinas en aceite, enlatadas",
+  "nombreCompleto": "Sardinas en aceite, enlatadas",
+  "pesoG": "65",
+  "medidaCasera": "1 unidad",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/ref-sardinas-en-aceite-enlatadas.jpg",
+  "nota": null,
+  "fotoReferencia": "Foto de referencia del libro USFQ: Sardina enlatada, en salsa de tomate. No es exactamente este alimento."
+ },
+ {
+  "id": "sardina-en-salsa-de-tomate-enlatada",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Medios en grasas",
+  "nombre": "Sardina en salsa de tomate, enlatada",
+  "nombreCompleto": "Sardina en salsa de tomate, enlatada",
+  "pesoG": "55",
+  "medidaCasera": "1 unidad",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/sardina-en-salsa-de-tomate-enlatada.jpg",
+  "nota": null
+ },
+ {
+  "id": "pescado-pampanito-o-carita",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Medios en grasas",
+  "nombre": "Pescado, pampanito o carita",
+  "nombreCompleto": "Pescado, pampanito o carita (crudo o cocido)",
+  "pesoG": "60",
+  "medidaCasera": "Crudo: 2 filetes (11 x 7,7 x 0,2 cm) · Cocido: 1 unidad pequeña",
+  "comidas": [],
+  "foto": "imagenes/pescado-pampanito-o-carita-crudo-o-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "pollo-pierna-con-piel",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Medios en grasas",
+  "nombre": "Pollo, pierna con piel",
+  "nombreCompleto": "Pollo, pierna con piel (cruda o cocida)",
+  "pesoG": "55",
+  "medidaCasera": "1 unidad pequeña, 1/2 unidad mediana",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/pollo-pierna-con-piel-cruda-o-cocida.jpg",
+  "nota": null
+ },
+ {
+  "id": "res-bistec-crudo",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Medios en grasas",
+  "nombre": "Res, bistec, crudo",
+  "nombreCompleto": "Res, bistec (crudo)",
+  "pesoG": "60",
+  "medidaCasera": "1 filete (10 x 4 x 2,1 cm)",
+  "comidas": [
+   "Almuerzo"
+  ],
+  "foto": "imagenes/ref-res-bistec-crudo.jpg",
+  "nota": null,
+  "fotoReferencia": "Foto de referencia del libro USFQ: Res, bife de chorizo, crudo. No es exactamente este alimento."
+ },
+ {
+  "id": "res-carne-semimagra",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Medios en grasas",
+  "nombre": "Res, carne semimagra",
+  "nombreCompleto": "Res, carne semimagra",
+  "pesoG": "crudo: 50 / cocido: 40",
+  "medidaCasera": "crudo: 1 filete (7 x 3,4 x 1,9 cm) / cocido: 1 filete (6,1 x 3,5 x 1,3 cm)",
+  "comidas": [
+   "Almuerzo"
+  ],
+  "foto": "imagenes/res-carne-semimagra.jpg",
+  "nota": null
+ },
+ {
+  "id": "pollo-pechuga-sin-piel",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Bajos en grasas",
+  "nombre": "Pollo, pechuga sin piel",
+  "nombreCompleto": "Pollo, pechuga sin piel (crudo / cocido (estado del peso por verificar))",
+  "pesoG": "40",
+  "medidaCasera": "Crudo: 1 filete (10 x 6,5 x 0,6 cm) · Cocido: 1 filete (9 x 5,7 x 0,6 cm)",
+  "comidas": [
+   "Almuerzo",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/pollo-pechuga-sin-piel-crudo-cocido-estado-del-peso-por-veri.jpg",
+  "nota": "Peso por verificar con el libro impreso (40 g, crudo o cocido)"
+ },
+ {
+  "id": "pollo-muslo-sin-piel",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Bajos en grasas",
+  "nombre": "Pollo, muslo sin piel",
+  "nombreCompleto": "Pollo, muslo sin piel (crudo o cocido)",
+  "pesoG": "45",
+  "medidaCasera": "1/2 unidad",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/pollo-muslo-sin-piel-crudo-o-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "res-carne-magra-cruda",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Bajos en grasas",
+  "nombre": "Res, carne magra, cruda",
+  "nombreCompleto": "Res, carne magra (cruda)",
+  "pesoG": "50",
+  "medidaCasera": "1 filete (7,3 x 6 x 1,1 cm)",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/ref-res-carne-magra-cruda.jpg",
+  "nota": null,
+  "fotoReferencia": "Foto de referencia del libro USFQ: Res, carne semimagra, cruda. No es exactamente este alimento."
+ },
+ {
+  "id": "res-lomo-fino",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Bajos en grasas",
+  "nombre": "Res, lomo fino",
+  "nombreCompleto": "Res, lomo fino (filete)",
+  "pesoG": "crudo: 50 / cocido: 40",
+  "medidaCasera": "crudo: 1 filete (8,5 x 6,1 x 1 cm) / cocido: 1 filete (7 x 6 x 1 cm)",
+  "comidas": [
+   "Almuerzo"
+  ],
+  "foto": "imagenes/res-lomo-fino-filete.jpg",
+  "nota": null
+ },
+ {
+  "id": "res-molida-3-5-de-grasa",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Bajos en grasas",
+  "nombre": "Res, molida 3-5 % de grasa",
+  "nombreCompleto": "Res, molida 3-5 % de grasa",
+  "pesoG": "45",
+  "medidaCasera": "Cruda: 2 cdas. colmadas · Cocida: 4 cdas. llenas",
+  "comidas": [
+   "Almuerzo"
+  ],
+  "foto": "imagenes/res-molida-3-5-de-grasa.jpg",
+  "nota": null
+ },
+ {
+  "id": "pescado-atun-en-agua-o-aceite-enlatado",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Bajos en grasas",
+  "nombre": "Pescado, atún en agua o aceite, enlatado",
+  "nombreCompleto": "Pescado, atún en agua o aceite, enlatado",
+  "pesoG": "40",
+  "medidaCasera": "4 cdas. llenas, 1/4 de taza",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/ref-pescado-atun-en-agua-o-aceite-enlatado.jpg",
+  "nota": null,
+  "fotoReferencia": "Foto de referencia del libro USFQ: Pescado, albacora (atún blanco), cocido. No es exactamente este alimento."
+ },
+ {
+  "id": "pescado-tilapia",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Bajos en grasas",
+  "nombre": "Pescado, tilapia",
+  "nombreCompleto": "Pescado, tilapia",
+  "pesoG": "crudo: 60 / cocido: 55",
+  "medidaCasera": "crudo: 1 filete (10 x 8 x 0,8 cm) / cocido: 1 filete (8,4 x 7 x 1 cm)",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/pescado-tilapia.jpg",
+  "nota": null
+ },
+ {
+  "id": "pescado-trucha-cruda",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Bajos en grasas",
+  "nombre": "Pescado, trucha, cruda",
+  "nombreCompleto": "Pescado, trucha (cruda)",
+  "pesoG": "50",
+  "medidaCasera": "Crudo: 1 filete (15 x 4,2 x 0,6 cm) · Cocido: 1 filete (14,5 x 4 x 0,5 cm)",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/pescado-trucha-cruda.jpg",
+  "nota": null
+ },
+ {
+  "id": "pescado-corvina-cruda",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Bajos en grasas",
+  "nombre": "Pescado, corvina, cruda",
+  "nombreCompleto": "Pescado, corvina (cruda)",
+  "pesoG": "70",
+  "medidaCasera": "Crudo: 1 filete (14,5 x 6 x 0,6 cm) · Cocido: (13,8 x 5 x 0,6 cm)",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/pescado-corvina-cruda.jpg",
+  "nota": null
+ },
+ {
+  "id": "pescado-pargo",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Bajos en grasas",
+  "nombre": "Pescado, pargo",
+  "nombreCompleto": "Pescado, pargo",
+  "pesoG": "60",
+  "medidaCasera": "Crudo: 1 filete (9,5 x 5 x 3,2 cm) · Asado/cocido: (9,1 x 4,9 x 3,1 cm)",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/pescado-pargo.jpg",
+  "nota": null
+ },
+ {
+  "id": "pescado-bagre",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Bajos en grasas",
+  "nombre": "Pescado, bagre",
+  "nombreCompleto": "Pescado, bagre",
+  "pesoG": "75",
+  "medidaCasera": "Crudo: 1 trozo (7,9 x 3,9 x 3,2 cm) · Asado/cocido: (7,6 x 3,5 x 2,9 cm)",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": null,
+  "nota": null
+ },
+ {
+  "id": "camaron-pelado",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Bajos en grasas",
+  "nombre": "Camarón, pelado",
+  "nombreCompleto": "Camarón, pelado (crudo o cocido)",
+  "pesoG": "60",
+  "medidaCasera": "P: 11 uds. · G: 4 uds.",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/camaron-pelado-crudo-o-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "huevo-de-gallina-clara",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Bajos en grasas",
+  "nombre": "Huevo de gallina, clara",
+  "nombreCompleto": "Huevo de gallina, clara (cruda o cocida)",
+  "pesoG": "100",
+  "medidaCasera": "3 unidades",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "MT"
+  ],
+  "foto": "imagenes/huevo-de-gallina-clara-cruda-o-cocida.jpg",
+  "nota": null
+ },
+ {
+  "id": "res-higado",
+  "grupo": "Carnes, pescados y huevos",
+  "subgrupo": "Bajos en grasas",
+  "nombre": "Res, hígado",
+  "nombreCompleto": "Res, hígado",
+  "pesoG": "crudo: 55 / cocido: 45",
+  "medidaCasera": "crudo: 1 filete (8,5 x 5,7 x 1,1 cm) / cocido: 1 filete (7 x 5,4 x 1,2 cm)",
+  "comidas": [
+   "Almuerzo"
+  ],
+  "foto": "imagenes/res-higado.jpg",
+  "nota": null
+ },
+ {
+  "id": "lenteja-grano-seco-sin-sal",
+  "grupo": "Leguminosas",
+  "subgrupo": "Leguminosas",
+  "nombre": "Lenteja, grano seco, sin sal",
+  "nombreCompleto": "Lenteja, grano seco, sin sal",
+  "pesoG": "cocida: 90 / cruda: 35",
+  "medidaCasera": "cocida: 3/4 de taza / cruda: 3 cdas. llenas, 1/4 de taza",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/lenteja-grano-seco-sin-sal.jpg",
+  "nota": null
+ },
+ {
+  "id": "frejol-negro-sin-sal",
+  "grupo": "Leguminosas",
+  "subgrupo": "Leguminosas",
+  "nombre": "Fréjol negro, sin sal",
+  "nombreCompleto": "Fréjol negro, sin sal",
+  "pesoG": "cocido: 90 / crudo: 40",
+  "medidaCasera": "cocido: 1/2 taza / crudo: 3 1/2 cdas. ras, 2 cdas. llenas, 1/8 de taza",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/frejol-negro-sin-sal.jpg",
+  "nota": null
+ },
+ {
+  "id": "frejol-rojo-sin-sal",
+  "grupo": "Leguminosas",
+  "subgrupo": "Leguminosas",
+  "nombre": "Fréjol rojo, sin sal",
+  "nombreCompleto": "Fréjol rojo, sin sal",
+  "pesoG": "cocido: 90 / crudo: 35",
+  "medidaCasera": "cocido: 1/2 taza / crudo: 3 cdas. ras, 2 cdas. llenas, 1/8 de taza",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/frejol-rojo-sin-sal.jpg",
+  "nota": null
+ },
+ {
+  "id": "garbanzo-sin-sal",
+  "grupo": "Leguminosas",
+  "subgrupo": "Leguminosas",
+  "nombre": "Garbanzo, sin sal",
+  "nombreCompleto": "Garbanzo, sin sal",
+  "pesoG": "cocido: 90 / crudo: 35",
+  "medidaCasera": "cocido: 3/4 de taza / crudo: 2 cdas. llenas, 1/4 de taza",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/garbanzo-sin-sal.jpg",
+  "nota": null
+ },
+ {
+  "id": "chocho-con-sal-cocido",
+  "grupo": "Leguminosas",
+  "subgrupo": "Leguminosas",
+  "nombre": "Chocho, con sal, cocido",
+  "nombreCompleto": "Chocho, con sal (cocido)",
+  "pesoG": "60",
+  "medidaCasera": "1/2 taza",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "Almuerzo",
+   "MT",
+   "Cena"
+  ],
+  "foto": "imagenes/chocho-con-sal-cocido.jpg",
+  "nota": null
+ },
+ {
+  "id": "arveja-grano-seco-sin-sal",
+  "grupo": "Leguminosas",
+  "subgrupo": "Leguminosas",
+  "nombre": "Arveja, grano seco, sin sal",
+  "nombreCompleto": "Arveja, grano seco, sin sal",
+  "pesoG": "cocida: 100 / cruda: 35",
+  "medidaCasera": "cocida: 4 1/2 cdas. colmadas, 1/2 taza / cruda: 3 cdas. ras, 1/8 de taza",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/arveja-grano-seco-sin-sal.jpg",
+  "nota": null
+ },
+ {
+  "id": "frejol-blanco-sin-sal",
+  "grupo": "Leguminosas",
+  "subgrupo": "Leguminosas",
+  "nombre": "Fréjol blanco, sin sal",
+  "nombreCompleto": "Fréjol blanco, sin sal",
+  "pesoG": "cocido: 90 / crudo: 35",
+  "medidaCasera": "cocido: 1/2 taza / crudo: 3 cdas. ras, 2 cdas. llenas, 1/8 de taza",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/frejol-blanco-sin-sal.jpg",
+  "nota": null
+ },
+ {
+  "id": "haba-grano-seco",
+  "grupo": "Leguminosas",
+  "subgrupo": "Leguminosas",
+  "nombre": "Haba, grano seco",
+  "nombreCompleto": "Haba, grano seco (tostada)",
+  "pesoG": "35",
+  "medidaCasera": "3 cdas. llenas, 1/4 de taza",
+  "comidas": [
+   "MM",
+   "MT"
+  ],
+  "foto": "imagenes/haba-grano-seco-tostada.jpg",
+  "nota": null
+ },
+ {
+  "id": "aceite-de-oliva",
+  "grupo": "Grasas y frutos secos",
+  "subgrupo": "Altos en grasas",
+  "nombre": "Aceite de oliva",
+  "nombreCompleto": "Aceite de oliva",
+  "pesoG": "15",
+  "medidaCasera": "2 cdas",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": null,
+  "nota": null
+ },
+ {
+  "id": "aceite-de-canola",
+  "grupo": "Grasas y frutos secos",
+  "subgrupo": "Altos en grasas",
+  "nombre": "Aceite de canola",
+  "nombreCompleto": "Aceite de canola",
+  "pesoG": "15",
+  "medidaCasera": "2 cdas",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": null,
+  "nota": null
+ },
+ {
+  "id": "aceite-de-girasol",
+  "grupo": "Grasas y frutos secos",
+  "subgrupo": "Altos en grasas",
+  "nombre": "Aceite de girasol",
+  "nombreCompleto": "Aceite de girasol",
+  "pesoG": "15",
+  "medidaCasera": "2 cdas",
+  "comidas": [
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": null,
+  "nota": null
+ },
+ {
+  "id": "nuez-de-nogal",
+  "grupo": "Grasas y frutos secos",
+  "subgrupo": "Altos en grasas",
+  "nombre": "Nuez de nogal",
+  "nombreCompleto": "Nuez de nogal (fruto seco)",
+  "pesoG": "15",
+  "medidaCasera": "Entera: 3 unidades · Pelada: 6 mitades, 2 cdas. llenas",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "MT"
+  ],
+  "foto": "imagenes/nuez-de-nogal-fruto-seco.jpg",
+  "nota": null
+ },
+ {
+  "id": "mani-o-cacahuate-tostado-con-sal",
+  "grupo": "Grasas y frutos secos",
+  "subgrupo": "Altos en grasas",
+  "nombre": "Maní o cacahuate, tostado, con sal",
+  "nombreCompleto": "Maní o cacahuate, tostado, con sal (fruto seco)",
+  "pesoG": "20",
+  "medidaCasera": "2 cdas. llenas",
+  "comidas": [
+   "Desayuno",
+   "MM",
+   "MT"
+  ],
+  "foto": "imagenes/mani-o-cacahuate-tostado-con-sal-fruto-seco.jpg",
+  "nota": null
+ },
+ {
+  "id": "aguacate-o-palta-comun",
+  "grupo": "Grasas y frutos secos",
+  "subgrupo": "Medios en grasas",
+  "nombre": "Aguacate o palta, común",
+  "nombreCompleto": "Aguacate o palta, común",
+  "pesoG": "50",
+  "medidaCasera": "1/4 de unidad",
+  "comidas": [
+   "Desayuno",
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/aguacate-o-palta-comun.jpg",
+  "nota": null
+ },
+ {
+  "id": "aguacate-serrano",
+  "grupo": "Grasas y frutos secos",
+  "subgrupo": "Medios en grasas",
+  "nombre": "Aguacate, serrano",
+  "nombreCompleto": "Aguacate, serrano",
+  "pesoG": "50",
+  "medidaCasera": "1 unidad",
+  "comidas": [
+   "Desayuno",
+   "Almuerzo",
+   "Cena"
+  ],
+  "foto": "imagenes/aguacate-serrano.jpg",
+  "nota": null
+ },
+ {
+  "id": "aceituna-verde-sin-hueso-envasada",
+  "grupo": "Grasas y frutos secos",
+  "subgrupo": "Medios en grasas",
+  "nombre": "Aceituna verde, sin hueso, envasada",
+  "nombreCompleto": "Aceituna verde, sin hueso, envasada",
+  "pesoG": "60",
+  "medidaCasera": "1/2 taza, 20-22 unidades",
+  "comidas": [],
+  "foto": "imagenes/aceituna-verde-sin-hueso-envasada.jpg",
+  "nota": null
+ }
+]
