@@ -10,7 +10,7 @@ public sealed class MenuService
 {
     // Orden en que se muestran los subgrupos dentro de una comida
     const string GrupoCarnes = "Carnes, pescados y huevos";
-    static readonly string[] OrdenGrupos = { "Lácteos", "Cereales", "Carnes, pescados y huevos", "Leguminosas", "Vegetales", "Frutas", "Grasas y frutos secos" };
+    static readonly string[] OrdenGrupos = { "Lácteos", "Cereales", "Carnes, pescados y huevos", "Leguminosas", "Vegetales", "Frutas", "Grasas y frutos secos", GruposIntercambio.Azucares };
 
     readonly CatalogoService _catalogo;
     public MenuService(CatalogoService catalogo) => _catalogo = catalogo;

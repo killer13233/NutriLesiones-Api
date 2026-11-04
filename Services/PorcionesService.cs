@@ -3,51 +3,97 @@ using NutriLesiones.Api.Models;
 namespace NutriLesiones.Api.Services;
 
 /// <summary>
-/// Algoritmo greedy dinámico: en cada paso toma el nutriente más atrasado (menor % de adecuación)
-/// y le suma media porción al subgrupo que deje los 4 nutrientes más cerca de 100 %,
-/// sin que ninguno pase de 110 %. Termina cuando los 4 llegan a 90 % o más.
+/// Método de Belén para convertir los requerimientos en intercambios (pasos de 0,5):
+///  1. Cereales (altos en CHO, 30 g) = 1/3 del CHO requerido ÷ 30.
+///  2. Vegetales y lácteos = límite inferior del rango DASH para esa energía; leguminosas = 1,5.
+///  3. Carnes = (proteína requerida − la ya aportada) ÷ 11, hacia abajo; la mitad en "bajas en grasa" (hacia arriba) y el resto en "medias".
+///  4. Grasas (altas, 12 g) = (grasa requerida − la ya aportada) ÷ 12.
+///  5. Azúcares = 1 intercambio.
+///  6. Frutas (medias en CHO, 20 g) = (CHO requerido − el ya aportado) ÷ 20. Si queda fuera del rango DASH de frutas,
+///     se sube o baja el cereal en 0,5 y se repite desde el paso 2.
+/// Además hay subgrupos con porciones FIJAS que siempre van (aguacate, cereales medios, frutas bajas en CHO) y los lácteos
+/// se reparten mitad semidescremados / mitad descremados. Todo cuenta dentro de los totales antes de calcular carnes, grasas y frutas.
 /// </summary>
 public static class PorcionesService
 {
     const double Paso = 0.5;
-    const double Inferior = 90;
-    const double Superior = 110;
-    const double ToleranciaEmpate = 1.10;
-    const int MaxIteraciones = 300;
+    const double Leguminosas = 1.5;
+    const double AzucarPorciones = 1;
+    const int MaxVueltas = 40;
+
+    // Porciones fijas (editables; son parámetros, no vienen del libro): aguacate = 1/4 de unidad.
+    static readonly (string grupo, string sub, double porciones)[] Fijos =
+    {
+        ("Grasas y frutos secos", "Medios en grasas", 1.0),
+        ("Cereales", "Medios en CHO y bajos en grasas", 1.0),
+        ("Cereales", "Medios en CHO y medios en grasas", 0.5),
+        ("Frutas", "Bajas en CHO", 1.0),
+    };
+
+    static double Nearest(double x) => Math.Floor(x / Paso + 0.5) * Paso;
+    static double Floor05(double x) => Math.Floor(x / Paso + 1e-9) * Paso;
+    static double Ceil05(double x) => Math.Ceiling(x / Paso - 1e-9) * Paso;
+
+    /// <summary>Rango DASH (mín, máx) de porciones para una energía: interpolado entre 2000 y 2600 kcal.</summary>
+    static (int lo, int hi) RangoDash(double e, double l0, double h0, double l1, double h1)
+    {
+        double lo, hi;
+        if (e <= 2000) { lo = l0 * e / 2000; hi = h0 * e / 2000; }
+        else if (e >= 2600) { lo = l1; hi = h1; }
+        else { var s = (e - 2000) / 600; lo = l0 + (l1 - l0) * s; hi = h0 + (h1 - h0) * s; }
+        var loR = (int)Math.Floor(lo + 0.5);
+        var hiR = (int)Math.Floor(hi + 0.5);
+        return (loR, Math.Max(loR, hiR));
+    }
+
+    static GrupoIntercambio Buscar(List<GrupoIntercambio> gs, string grupo, string sub) =>
+        gs.First(g => g.Grupo == grupo && g.Subgrupo == sub);
 
     public static List<GrupoIntercambio> Calcular(Requerimientos req)
     {
-        var grupos = GruposIntercambio.Crear();
-        AsignarBase(grupos, req.Kcal);
+        var gs = GruposIntercambio.Crear();
+        var fru = RangoDash(req.Kcal, 4, 5, 5, 6);
+        var veg = RangoDash(req.Kcal, 4, 5, 5, 6);
+        var lac = RangoDash(req.Kcal, 2, 3, 3, 3);
 
-        for (var i = 0; i < MaxIteraciones; i++)
+        var cer = Buscar(gs, "Cereales", "Altos en CHO y bajos en grasas");
+        var vegetales = Buscar(gs, "Vegetales", "Bajos en CHO");
+        var semi = Buscar(gs, "Lácteos", "Semidescremados");
+        var desc = Buscar(gs, "Lácteos", "Descremados (bajos en grasas)");
+        var legum = Buscar(gs, "Leguminosas", "Leguminosas");
+        var bajas = Buscar(gs, "Carnes, pescados y huevos", "Bajos en grasas");
+        var medias = Buscar(gs, "Carnes, pescados y huevos", "Medios en grasas");
+        var grasas = Buscar(gs, "Grasas y frutos secos", "Altos en grasas");
+        var azuc = Buscar(gs, GruposIntercambio.Azucares, GruposIntercambio.Azucares);
+        var frutas = Buscar(gs, "Frutas", "Medias en CHO");
+
+        double Total(Func<GrupoIntercambio, double> aporte) => gs.Sum(g => aporte(g) * g.Porciones);
+
+        var cereal = Math.Max(0, Nearest(req.ChoG / 3 / 30));
+        for (var vuelta = 0; vuelta < MaxVueltas; vuelta++)
         {
-            var ad = Adecuaciones(grupos, req);
-            if (ad.All(a => a >= Inferior)) break;
+            foreach (var g in gs) g.Porciones = 0;
+            foreach (var (grupo, sub, porc) in Fijos) Buscar(gs, grupo, sub).Porciones = porc;
 
-            var atrasado = Array.IndexOf(ad, ad.Min());
-            var mejor = MejorGrupo(grupos, req, atrasado);
-            if (mejor == null) break; // ningún subgrupo puede subir sin pasarse de 110 %
-            mejor.Porciones += Paso;
-        }
-        return grupos;
-    }
+            cer.Porciones = cereal;
+            vegetales.Porciones = veg.lo;
+            semi.Porciones = Nearest(lac.lo / 2.0);
+            desc.Porciones = lac.lo - semi.Porciones;
+            legum.Porciones = Leguminosas;
+            azuc.Porciones = AzucarPorciones;
 
-    /// <summary>Porciones base: frutas, vegetales y lácteos fijos según calorías; leguminosas mínimo 1.</summary>
-    static void AsignarBase(List<GrupoIntercambio> grupos, double kcal)
-    {
-        var (frutas, vegetales, lacteos) = kcal <= 2000 ? (4.0, 4.0, 2.0) : (5.0, 5.0, 3.0); // 2600+ kcal: provisional
-        foreach (var g in grupos)
-        {
-            g.Porciones = (g.Grupo, g.Subgrupo) switch
-            {
-                ("Frutas", "Medias en CHO") => frutas,
-                ("Vegetales", _) => vegetales,
-                ("Lácteos", "Semidescremados") => lacteos,
-                ("Leguminosas", _) => 1,
-                _ => 0
-            };
+            var m = Math.Max(0, Floor05((req.ProtG - Total(g => g.Prot)) / 11));
+            bajas.Porciones = Ceil05(m * 0.5);
+            medias.Porciones = m - bajas.Porciones;
+
+            grasas.Porciones = Math.Max(0, Nearest((req.GrasaG - Total(g => g.Grasa)) / 12));
+            frutas.Porciones = Math.Max(0, Nearest((req.ChoG - Total(g => g.Cho)) / 20));
+
+            if (frutas.Porciones > fru.hi) cereal += Paso;
+            else if (frutas.Porciones < fru.lo) cereal = Math.Max(0, cereal - Paso);
+            else break;
         }
+        return gs;
     }
 
     /// <summary>[CHO %, Proteína %, Grasa %, Kcal %] del total acumulado frente al requerimiento.</summary>
@@ -60,50 +106,5 @@ public static class PorcionesService
             grasa += g.Grasa * g.Porciones; kcal += g.Kcal * g.Porciones;
         }
         return new[] { cho * 100 / r.ChoG, prot * 100 / r.ProtG, grasa * 100 / r.GrasaG, kcal * 100 / r.Kcal };
-    }
-
-    static GrupoIntercambio? MejorGrupo(List<GrupoIntercambio> grupos, Requerimientos r, int nutriente)
-    {
-        double cho = grupos.Sum(g => g.Cho * g.Porciones), prot = grupos.Sum(g => g.Prot * g.Porciones);
-        double grasa = grupos.Sum(g => g.Grasa * g.Porciones), kcal = grupos.Sum(g => g.Kcal * g.Porciones);
-
-        var candidatos = new List<(GrupoIntercambio g, double puntaje)>();
-        var mejorPuntaje = double.MaxValue;
-
-        foreach (var g in grupos)
-        {
-            if (!g.Ajustable || g.Porciones + Paso > g.Max + 1e-9) continue;
-            if (g.Aporte(nutriente) <= 0) continue;
-
-            var aCho = (cho + g.Cho * Paso) * 100 / r.ChoG;
-            var aProt = (prot + g.Prot * Paso) * 100 / r.ProtG;
-            var aGrasa = (grasa + g.Grasa * Paso) * 100 / r.GrasaG;
-            var aKcal = (kcal + g.Kcal * Paso) * 100 / r.Kcal;
-            if (aCho > Superior || aProt > Superior || aGrasa > Superior || aKcal > Superior) continue;
-
-            var puntaje = Math.Pow(100 - aCho, 2) + Math.Pow(100 - aProt, 2)
-                        + Math.Pow(100 - aGrasa, 2) + Math.Pow(100 - aKcal, 2);
-            candidatos.Add((g, puntaje));
-            if (puntaje < mejorPuntaje) mejorPuntaje = puntaje;
-        }
-
-        // Solo cuentan los subgrupos que de verdad aportan al nutriente atrasado (al menos la mitad que el que más aporta);
-        // si no, un subgrupo con aporte mínimo (ej. aguacate para carbohidratos) se colaba por ir con 0 porciones.
-        if (candidatos.Count > 0)
-        {
-            var maxAporte = candidatos.Max(c => c.g.Aporte(nutriente));
-            candidatos = candidatos.Where(c => c.g.Aporte(nutriente) >= 0.5 * maxAporte).ToList();
-            mejorPuntaje = candidatos.Min(c => c.puntaje);
-        }
-
-        // Entre los casi empatados con el mejor: primero los preferentes (los opcionales solo si no hay preferente
-        // cerca) y, entre esos, el que lleva menos porciones (así se reparten las carnes, etc.)
-        var cercanos = candidatos.Where(c => c.puntaje <= mejorPuntaje * ToleranciaEmpate + 1).Select(c => c.g).ToList();
-        var preferentes = cercanos.Where(g => g.Prioridad == Prioridad.Preferente).ToList();
-        var lista = preferentes.Count > 0 ? preferentes : cercanos;
-        GrupoIntercambio? elegido = null;
-        foreach (var g in lista)
-            if (elegido == null || g.Porciones < elegido.Porciones) elegido = g;
-        return elegido;
     }
 }

@@ -146,7 +146,7 @@
    "Desayuno",
    "Almuerzo"
   ],
-  "foto": null,
+  "foto": "imagenes/platano-maduro-o-maqueno.jpg",
   "nota": null
  },
  {
@@ -221,20 +221,6 @@
    "Desayuno"
   ],
   "foto": "imagenes/pan-de-trigo-natural-o-tostado.jpg",
-  "nota": null
- },
- {
-  "id": "pan-integral-tipo-pita",
-  "grupo": "Cereales",
-  "subgrupo": "Altos en CHO y bajos en grasas",
-  "nombre": "Pan integral, tipo pita",
-  "nombreCompleto": "Pan integral, tipo pita",
-  "pesoG": "50",
-  "medidaCasera": "1 unidad",
-  "comidas": [
-   "Desayuno"
-  ],
-  "foto": null,
   "nota": null
  },
  {
@@ -714,18 +700,6 @@
   "medidaCasera": "3/4 de taza · P: 2 uds. · M: 1 ud.",
   "comidas": [],
   "foto": "imagenes/araza.jpg",
-  "nota": null
- },
- {
-  "id": "guaba",
-  "grupo": "Frutas",
-  "subgrupo": "Bajas en CHO",
-  "nombre": "Guaba",
-  "nombreCompleto": "Guaba",
-  "pesoG": "60",
-  "medidaCasera": "1 unidad pequeña, 1/4 de taza",
-  "comidas": [],
-  "foto": null,
   "nota": null
  },
  {
@@ -1471,7 +1445,7 @@
    "Almuerzo",
    "Cena"
   ],
-  "foto": null,
+  "foto": "imagenes/aceite-de-oliva.jpg",
   "nota": null
  },
  {
@@ -1486,7 +1460,7 @@
    "Almuerzo",
    "Cena"
   ],
-  "foto": null,
+  "foto": "imagenes/aceite-de-canola.jpg",
   "nota": null
  },
  {
@@ -1501,7 +1475,7 @@
    "Almuerzo",
    "Cena"
   ],
-  "foto": null,
+  "foto": "imagenes/aceite-de-girasol.jpg",
   "nota": null
  },
  {
@@ -1578,6 +1552,63 @@
   "medidaCasera": "1/2 taza, 20-22 unidades",
   "comidas": [],
   "foto": "imagenes/aceituna-verde-sin-hueso-envasada.jpg",
+  "nota": null
+ },
+ {
+  "id": "azucar",
+  "grupo": "Azúcares y alimentos azucarados",
+  "subgrupo": "Azúcares y alimentos azucarados",
+  "nombre": "Azúcar",
+  "nombreCompleto": "Azúcar",
+  "pesoG": "10",
+  "medidaCasera": "1 cda. llena",
+  "comidas": [
+   "MT"
+  ],
+  "foto": "imagenes/azucar.jpg",
+  "nota": null
+ },
+ {
+  "id": "miel",
+  "grupo": "Azúcares y alimentos azucarados",
+  "subgrupo": "Azúcares y alimentos azucarados",
+  "nombre": "Miel",
+  "nombreCompleto": "Miel",
+  "pesoG": "15",
+  "medidaCasera": "1 cda. ras",
+  "comidas": [
+   "MT"
+  ],
+  "foto": "imagenes/miel.jpg",
+  "nota": null
+ },
+ {
+  "id": "panela",
+  "grupo": "Azúcares y alimentos azucarados",
+  "subgrupo": "Azúcares y alimentos azucarados",
+  "nombre": "Panela",
+  "nombreCompleto": "Panela",
+  "pesoG": "10",
+  "medidaCasera": "1 cda. llena",
+  "comidas": [
+   "MT"
+  ],
+  "foto": "imagenes/panela.jpg",
+  "nota": null
+ },
+ {
+  "id": "mermelada",
+  "grupo": "Azúcares y alimentos azucarados",
+  "subgrupo": "Azúcares y alimentos azucarados",
+  "nombre": "Mermelada",
+  "nombreCompleto": "Mermelada",
+  "pesoG": "15",
+  "medidaCasera": "1 cda. ras",
+  "comidas": [
+   "Desayuno",
+   "MT"
+  ],
+  "foto": "imagenes/mermelada.jpg",
   "nota": null
  }
 ]

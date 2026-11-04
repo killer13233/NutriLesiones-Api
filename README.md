@@ -58,8 +58,8 @@ docker run -p 8080:8080 nutrilesiones-api
 |---|---|
 | Agregar/quitar alimentos, medidas, comidas permitidas o fotos | `Data/alimentos.json` y `wwwroot/imagenes/` |
 | Reglas de compatibilidad (ej. leche con huevo) | `Data/reglas.json` |
-| Valores por porción de cada subgrupo, topes (leguminosas máx. 2) y reparto por comida | `Models/Modelos.cs` |
-| Porciones base de frutas/vegetales/lácteos según calorías | `Services/PorcionesService.cs` (método `AsignarBase`) |
+| Valores por porción de cada subgrupo y reparto por comida | `Models/Modelos.cs` |
+| Cómo se calculan las porciones (método de Belén) y las porciones fijas | `Services/PorcionesService.cs` |
 | kcal/kg y % de macros por fase | `Services/RequerimientosService.cs` |
 | Horarios de las comidas | `Services/CatalogoService.cs` |
 
@@ -70,17 +70,24 @@ docker run -p 8080:8080 nutrilesiones-api
 4. (Opcional) Variable de entorno `CORS_ORIGINS` = `https://tu-front.vercel.app` para que solo tu Angular pueda llamar a la API. Sin ella acepta cualquier origen.
 5. Render te da un link `https://nombre.onrender.com`. El plan gratis se "duerme" tras un rato sin uso y la primera llamada tarda unos segundos en despertar.
 
-## Prioridad de los subgrupos (decisión del nutricionista)
-- **Preferentes:** los 8 de siempre, más lácteos semidescremados (llevan las porciones base de lácteos) y grasas medias (aguacate).
-- **Opcionales** (el algoritmo los usa solo si le sirven más que los preferentes): cereales medios en CHO (dos subgrupos), frutas bajas en CHO y lácteos descremados.
-- **Fuera por ahora** (pendiente de la tutora): quesos, lácteos enteros, lácteos descremados altos en CHO y grasas altas en grasas y bajas en CHO.
-- Se cambia en `Models/Modelos.cs` (campo `Prioridad` de cada subgrupo).
+## Método de cálculo de porciones (Belén)
+`Services/PorcionesService.cs` aplica el método de Belén, en pasos de 0,5 porciones:
+1. **Cereales** (altos en CHO, 30 g) = 1/3 del CHO requerido ÷ 30.
+2. **Vegetales y lácteos** = límite inferior del rango DASH para esa energía (interpolado entre 2000 y 2600 kcal); **leguminosas** = 1,5.
+3. **Carnes** = (proteína requerida − la ya aportada) ÷ 11, hacia abajo; la mitad en "bajas en grasa" (hacia arriba) y el resto en "medias".
+4. **Grasas** (altas, 12 g) = (grasa requerida − la ya aportada) ÷ 12.
+5. **Azúcares** = 1 intercambio (10 g CHO, 40 kcal).
+6. **Frutas** (medias en CHO, 20 g) = (CHO requerido − el ya aportado) ÷ 20. Si queda fuera del rango DASH de frutas, el cereal sube o baja 0,5 y se repite desde el paso 2.
+
+**Porciones fijas que siempre van** (son parámetros, no vienen del libro; se cambian en `Fijos` de `PorcionesService.cs`): aguacate (grasas medias) 1 porción = 1/4 de unidad, cereales medios en CHO y bajos en grasas 1, cereales medios en CHO y medios en grasas 0,5, frutas bajas en CHO 1. Los lácteos se reparten mitad semidescremados y mitad descremados. Todo cuenta dentro de los totales antes de calcular carnes, grasas y frutas.
+
 - Los valores por porción de los cereales medios salen del libro (p. 10). En el Excel del nutricionista esos dos subgrupos tienen los valores cruzados (20/2/6/145 corresponde a "medios en grasas" y 20/3/1/105 a "bajos en grasas").
+- Siguen fuera por ahora (pendiente de la tutora): quesos, lácteos enteros, lácteos descremados altos en CHO y grasas altas en grasas y bajas en CHO.
+- En qué comidas va cada subgrupo se ajusta en `PesosComida` de `Models/Modelos.cs` (solo se asigna a comidas donde el documento del nutricionista permite alimentos de ese subgrupo).
+- Azúcares: "Mer" del documento se interpretó como media tarde (la mermelada también en desayuno).
 
-## Fotos que faltan
-El libro **no trae foto** de 12 alimentos. Para 5 usé la foto de un alimento parecido del libro, marcada en la API como `fotoReferencia` (y como aviso en `advertencias`); los otros 7 quedan sin foto (`foto: null`).
-
-Para poner la foto real: guarda el archivo con el nombre indicado en `wwwroot/imagenes/` y listo (el programa la detecta sola, reemplaza la de referencia y no hay que tocar el JSON).
+## Fotos
+Casi todas las fotos salen del libro de la USFQ. Para poner o cambiar una foto: guarda el archivo con el nombre indicado en `wwwroot/imagenes/` y listo (el programa la detecta sola, reemplaza la de referencia y no hay que tocar el JSON).
 
 **Con foto de referencia (reemplazar cuando tengan la real):**
 
@@ -96,13 +103,8 @@ Para poner la foto real: guarda el archivo con el nombre indicado en `wwwroot/im
 
 | Alimento | Archivo |
 |---|---|
-| Plátano maduro o maqueño | `platano-maduro-o-maqueno.jpg` |
-| Pan integral, tipo pita | `pan-integral-tipo-pita.jpg` |
 | Harina de cebada, máchica | `harina-de-cebada-machica.jpg` |
 | Pescado, bagre | `pescado-bagre.jpg` |
-| Aceite de oliva | `aceite-de-oliva.jpg` |
-| Aceite de canola | `aceite-de-canola.jpg` |
-| Aceite de girasol | `aceite-de-girasol.jpg` |
 
 ## Confirmado por el nutricionista
 - Leguminosas: 1 a 2 porciones **por día** (el código ya lo hace: 1 de base, máximo 2).
@@ -110,6 +112,8 @@ Para poner la foto real: guarda el archivo con el nombre indicado en `wwwroot/im
 - Leche/yogur con huevo sí se permite.
 
 ## Pendientes
-- Más de 2600 kcal: hoy usa las mismas porciones base que a 2600. Una opción es interpolar entre 2600 y 3100 kcal (DASH: 6 vegetales, 6 frutas, 3–4 lácteos a 3100); debe aprobarla la tutora. Los valores de 2600 también hay que verificarlos.
+- Sardinas en aceite, atún enlatado y bistec: el nutricionista las va a fotografiar (guardar como `sardinas-en-aceite-enlatadas.jpg`, `pescado-atun-en-agua-o-aceite-enlatado.jpg` y `res-bistec-crudo.jpg`).
+- Fase proliferativa: hoy la proteína da 1,5 g/kg y la Tabla 2 pide mínimo 1,6 g/kg; confirmar el valor en `Services/RequerimientosService.cs`.
+- Más de 2600 kcal: el rango DASH se mantiene fijo desde 2600 kcal (decisión de la tutora).
 - Pechuga de pollo: peso 40 g sin confirmar si es crudo o cocido (el catálogo lo marca con una nota).
-- Reglas de compatibilidad: `Data/reglas.json` está vacío porque leche/yogur con huevo sí se permite.
+- Las porciones fijas (aguacate, cereales medios, frutas bajas) son parámetros por confirmar con el nutricionista.
